@@ -192,10 +192,13 @@ function focus(sp){
   gsap.to(ctrl, { theta, phi:1.5, pan:panFor(7.5), duration:dur, ease:'power3.inOut' });
   gsap.to(ctrl, { keyframes:[{ radius:44, duration:dur*0.45, ease:'power2.out' }, { radius:7.5, duration:dur*0.55, ease:'power3.inOut' }] });
   gsap.to(ctrl.target, { x:p.x, y:p.y, z:p.z, duration:dur, ease:'power3.inOut' });
-  // Let the camera fly toward the cover before the panel covers the screen,
-  // so on mobile (full-width panel) it's clear which cover was picked.
+  // Let the camera fly toward the cover before the panel covers the screen.
+  // On mobile the panel is full-width/full-screen, so we wait for the whole
+  // close-up to finish (rather than cutting in mid-flight like on desktop)
+  // so the text doesn't feel disconnected from the cover it belongs to.
+  const revealDelay = innerWidth <= 700 ? dur + 0.15 : dur * 0.4;
   if (revealTween) revealTween.kill();
-  revealTween = gsap.delayedCall(dur * 0.4, revealPanel);
+  revealTween = gsap.delayedCall(revealDelay, revealPanel);
 }
 function deselect(){
   selected = null;
