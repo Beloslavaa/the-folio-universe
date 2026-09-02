@@ -71,7 +71,7 @@ const decode = s => { const d = document.createElement('textarea'); d.innerHTML 
 
 const isTouch = matchMedia('(pointer:coarse)').matches;
 document.getElementById('hint').textContent = isTouch
-  ? 'Desliza para orbitar — pellizca para hacer zoom — toca una portada'
+  ? 'Gira, acerca y toca una portada'
   : 'Arrastra para orbitar — desplaza para hacer zoom — toca una portada';
 
 function layout(n, seed){
