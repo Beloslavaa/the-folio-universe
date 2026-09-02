@@ -216,7 +216,7 @@ addEventListener('resize', () => {
 const t0 = performance.now();
 (function tick(){
   const t = (performance.now() - t0)/1000;
-  if (auto && !selected) ctrl.theta += 0.0006;
+  if (auto && !selected) ctrl.theta += 0.0011;
   if (!selected) covers.forEach((sp,i) => { sp.position.y = base[i] + Math.sin(t*0.35 + bobPhase[i])*0.35; });
   applyCamera();
   renderer.render(scene, camera);
