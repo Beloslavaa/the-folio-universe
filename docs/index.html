@@ -160,6 +160,9 @@ function applyCamera(){
 }
 
 function panFor(radius){
+  // On mobile the panel covers the full screen rather than sitting beside
+  // it, so there's no reason to shift the close-up off-center for it.
+  if (innerWidth <= 700) return 0;
   const w = innerWidth, panelPx = Math.min(400, w * 0.4);
   const visH = 2 * radius * Math.tan((52 * Math.PI/180)/2);
   const visW = visH * (innerWidth / innerHeight);
