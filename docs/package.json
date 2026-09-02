@@ -1,0 +1,9 @@
+{
+  "name": "folio-archive-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes thefolioarchivo.com into covers.json for the 3D universe visualization",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs"
+  }
+}
