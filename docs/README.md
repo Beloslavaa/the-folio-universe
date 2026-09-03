@@ -3,12 +3,15 @@
 Scrapes [thefolioarchivo.com](https://thefolioarchivo.com) (a Cargo-hosted
 site) into a single `public/covers.json`, and serves `index.html` — a Three.js
 "floating universe" of the covers — that reads it. A GitHub Action re-runs the
-scrape daily so new covers flow through automatically.
+scrape daily so new covers flow through automatically. The same Action also
+computes CNN embeddings for any new covers (`public/embeddings.json`), which
+`index.html` uses to highlight similar covers when one is focused.
 
 ## Pipeline
 
 ```
 Cargo site  ->  GitHub Action (daily)  ->  scrape.mjs  ->  public/covers.json  ->  index.html fetch()
+                                        ->  embed.py    ->  public/embeddings.json ->  index.html fetch()
 ```
 
 1. You add a cover to the site in Cargo, as normal.
@@ -76,6 +79,29 @@ Two things aren't obvious from that JSON, and both are handled in
   is empty when a cover only has one metadata line.
 - `body` — the editorial copy, as paragraphs.
 
+`public/embeddings.json` (produced by `scripts/embed.py`) looks like:
+
+```json
+{
+  "generated_at": "2026-09-03T06:00:00.000Z",
+  "model": "mobilenetv2_1280",
+  "count": 29,
+  "embeddings": {
+    "kingkong_2022": [0.0123, -0.0456, "... 1280 floats, L2-normalized"]
+  }
+}
+```
+
+Each vector is a normalized MobileNetV2 (`include_top=False, pooling='avg'`)
+feature vector of a cover's `image_thumb`, so cosine similarity between two
+covers is just their dot product. `index.html` uses this to highlight the
+most similar covers when one is focused. The file is optional — if it's
+missing, that highlighting is silently skipped.
+
+Regeneration is incremental: `embed.py` keeps embeddings for slugs already in
+the file and only computes new ones for slugs it hasn't seen, so a daily run
+with a couple of new covers doesn't recompute the whole archive.
+
 ## Local run
 
 ```bash
@@ -83,6 +109,17 @@ npm run scrape
 ```
 
 No install step — the scraper is plain Node (18+) `fetch`, no dependencies.
+
+To (re)compute embeddings locally:
+
+```bash
+pip install -r requirements.txt
+npm run embed
+```
+
+This needs `public/covers.json` to already exist (run the scraper first) and
+downloads each cover's `image_thumb` from Cargo's CDN, so it needs network
+access. TensorFlow's first import is slow; subsequent covers are fast.
 
 To preview `index.html` locally (it needs `public/covers.json` served over
 HTTP, not opened as a `file://` URL):
