@@ -172,7 +172,10 @@ function firstGalleryImage(page) {
 function parsePage(purl, page, coverImageMap) {
   const { title, sub, meta, body } = parseContent(page.content || '');
 
-  let chosen = coverImageMap.get(purl);
+  // A grid link can point at a stale base slug left behind when Cargo
+  // auto-suffixed a renamed/duplicated page ("i-d_jolene" -> "i-d_jolene-1"),
+  // so also try the purl with any trailing "-N" stripped before giving up.
+  let chosen = coverImageMap.get(purl) || coverImageMap.get(purl.replace(/-\d+$/, ''));
   if (!chosen) {
     console.warn(`  (not listed in an archive grid — falling back to first gallery image)`);
     chosen = firstGalleryImage(page);
