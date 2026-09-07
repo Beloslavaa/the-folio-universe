@@ -122,10 +122,16 @@ function unsettleFor(duration){
 }
 
 // embeddings.json is produced by scripts/embed.py (run daily alongside the
-// scraper) and maps slug -> normalized MobileNetV2 feature vector. It's
-// optional: if it hasn't been generated yet, "similar cover" highlighting
-// is simply skipped rather than breaking anything.
+// scraper) and maps slug -> { cnn: normalized MobileNetV2 vector, color:
+// normalized HSV-histogram vector }. It's optional: if it hasn't been
+// generated yet, "similar cover" highlighting is simply skipped rather than
+// breaking anything.
 let embeddings = null;
+
+// 0 = pure subject/composition similarity (CNN only), 1 = pure palette
+// similarity (color only). Tunable while judging results.
+const COLOR_WEIGHT = 0.3;
+
 async function loadEmbeddings(){
   try {
     const res = await fetch('./public/embeddings.json', { cache:'no-store' });
@@ -139,16 +145,23 @@ async function loadEmbeddings(){
 loadEmbeddings();
 
 // Vectors are pre-normalized, so cosine similarity is just a dot product.
+function cosine(v, w){
+  let dot = 0;
+  for (let i = 0; i < v.length; i++) dot += v[i] * w[i];
+  return dot;
+}
 function nearestSlugs(slug, n){
   if (!embeddings || !embeddings[slug]) return [];
-  const v = embeddings[slug];
+  const target = embeddings[slug];
   return Object.keys(embeddings)
     .filter(s => s !== slug)
     .map(s => {
-      const w = embeddings[s];
-      let dot = 0;
-      for (let i = 0; i < v.length; i++) dot += v[i] * w[i];
-      return [s, dot];
+      const other = embeddings[s];
+      let score = cosine(target.cnn, other.cnn);
+      if (target.color && other.color) {
+        score = (1 - COLOR_WEIGHT) * score + COLOR_WEIGHT * cosine(target.color, other.color);
+      }
+      return [s, score];
     })
     .sort((a, b) => b[1] - a[1])
     .slice(0, n)
