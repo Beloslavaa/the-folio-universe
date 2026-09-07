@@ -28,6 +28,9 @@
   .cta:hover { color:#2f6fd8; text-decoration:none; }
   .it { font-style:normal; }
   .mut { color:#3C83F6; }
+  /* Similar-covers grid: only shown on phone (see media query below) — on
+     desktop the ring + highlighter web already do this job next to the panel. */
+  #i-neighbors { display:none; }
 
   @media (max-width: 700px){
     .tl { top:14px; left:14px; font-size:12px; }
@@ -38,6 +41,10 @@
     #i-sub { font-size:14px; }
     #i-body { font-size:13px; }
     .cta { font-size:18px; }
+    #i-neighbors { display:grid; grid-template-columns:repeat(3, 1fr); gap:6px; margin-top:20px; }
+    #i-neighbors:empty { display:none; }
+    #i-neighbors img { width:100%; aspect-ratio:3/4; object-fit:cover; cursor:pointer; opacity:.82; transition:opacity .15s ease; }
+    #i-neighbors img:active { opacity:1; }
   }
 </style>
 </head>
@@ -60,6 +67,7 @@
     <div id="i-meta"></div>
     <div id="i-body"></div>
     <a id="i-url" target="_blank" rel="noopener" class="cta">[ ver el número completo ]</a>
+    <div id="i-neighbors"></div>
   </div>
   <div class="br">© thefolio. 2026</div>
 </div>
@@ -102,7 +110,187 @@ host.appendChild(renderer.domElement);
 const loader = new THREE.TextureLoader();
 loader.crossOrigin = 'anonymous';
 const covers = [];
-let bobPhase = [], base = [];
+let bobPhase = [], base = [], homePos = [];
+// Bobbing is suspended (not just while a cover is focused, but until any
+// in-flight "return home" tween finishes) so it doesn't fight gsap's
+// position tween for the y axis — see settleTimer below.
+let settled = true, settleTimer = null;
+function unsettleFor(duration){
+  settled = false;
+  if (settleTimer) settleTimer.kill();
+  settleTimer = gsap.delayedCall(duration, () => { settled = true; });
+}
+
+// embeddings.json is produced by scripts/embed.py (run daily alongside the
+// scraper) and maps slug -> normalized MobileNetV2 feature vector. It's
+// optional: if it hasn't been generated yet, "similar cover" highlighting
+// is simply skipped rather than breaking anything.
+let embeddings = null;
+async function loadEmbeddings(){
+  try {
+    const res = await fetch('./public/embeddings.json', { cache:'no-store' });
+    if (!res.ok) return;
+    const data = await res.json();
+    embeddings = data.embeddings;
+  } catch (err) {
+    console.warn('No embeddings.json (similar-cover highlighting disabled):', err);
+  }
+}
+loadEmbeddings();
+
+// Vectors are pre-normalized, so cosine similarity is just a dot product.
+function nearestSlugs(slug, n){
+  if (!embeddings || !embeddings[slug]) return [];
+  const v = embeddings[slug];
+  return Object.keys(embeddings)
+    .filter(s => s !== slug)
+    .map(s => {
+      const w = embeddings[s];
+      let dot = 0;
+      for (let i = 0; i < v.length; i++) dot += v[i] * w[i];
+      return [s, dot];
+    })
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, n)
+    .map(([s]) => s);
+}
+function highlightSimilar(sp){
+  const neighbors = new Set(nearestSlugs(sp.userData.slug, 6));
+  if (!neighbors.size) return;
+  covers.forEach(sp2 => {
+    const keep = sp2 === sp || neighbors.has(sp2.userData.slug);
+    gsap.to(sp2.material, { opacity: keep ? 1 : 0.15, duration:0.8, ease:'power2.out' });
+  });
+}
+function clearHighlight(){
+  covers.forEach(sp2 => gsap.to(sp2.material, { opacity:1, duration:0.6, ease:'power2.out' }));
+}
+
+// The plane a viewer at (theta, phi) actually sees as "around" a target —
+// i.e. the two axes perpendicular to the camera's line of sight — so a ring
+// built from it reads as a ring on screen instead of an edge-on line. `dir`
+// itself (target -> camera) is what lets arrangeAround() push things back
+// into depth rather than just sideways.
+function viewPlaneBasis(theta, phi){
+  const s = Math.sin(phi), c = Math.cos(phi);
+  const dir = new THREE.Vector3(s*Math.sin(theta), c, s*Math.cos(theta));
+  const worldUp = new THREE.Vector3(0, 1, 0);
+  const right = new THREE.Vector3().crossVectors(worldUp, dir).normalize();
+  const up = new THREE.Vector3().crossVectors(dir, right).normalize();
+  return { right, up, dir };
+}
+
+// A soft-edged, faintly uneven swatch (transparent top/bottom, mottled
+// horizontally) so a stretched quad reads as a highlighter-marker stroke
+// rather than a hard-edged bar.
+const markerTexture = (() => {
+  const c = document.createElement('canvas');
+  c.width = 64; c.height = 64;
+  const ctx = c.getContext('2d');
+  const grad = ctx.createLinearGradient(0, 0, 0, 64);
+  grad.addColorStop(0, 'rgba(255,255,255,0)');
+  grad.addColorStop(0.5, 'rgba(255,255,255,1)');
+  grad.addColorStop(1, 'rgba(255,255,255,0)');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, 64, 64);
+  // Per-column noise, built on a separate canvas and composited in ONE
+  // destination-in pass — applying destination-in per column instead would
+  // clear the whole canvas on every iteration (each pass keeps only the
+  // overlap and wipes everything else), leaving just the last column.
+  const noise = document.createElement('canvas');
+  noise.width = 64; noise.height = 64;
+  const nctx = noise.getContext('2d');
+  for (let x = 0; x < 64; x++){
+    nctx.fillStyle = `rgba(0,0,0,${0.7 + Math.random()*0.3})`;
+    nctx.fillRect(x, 0, 1, 64);
+  }
+  ctx.globalCompositeOperation = 'destination-in';
+  ctx.drawImage(noise, 0, 0);
+  const tex = new THREE.CanvasTexture(c);
+  tex.wrapS = tex.wrapT = THREE.ClampToEdgeWrapping;
+  return tex;
+})();
+const STROKE_WIDTH = 0.4;
+
+// Blue "highlighter" strokes from the focused cover to each of its
+// currently-highlighted neighbors. Each is a camera-facing quad (not a
+// THREE.Line — WebGL line width is capped at 1px on most platforms, too
+// thin to read as a marker stroke), rendered with depthTest/depthWrite off
+// and a renderOrder below the cover sprites' default, so a stroke can never
+// paint over a cover — sprites always composite on top of it.
+let webLines = [];
+function buildWeb(sp, neighborSprites){
+  clearWeb();
+  neighborSprites.forEach(sp2 => {
+    const mat = new THREE.MeshBasicMaterial({
+      map: markerTexture, color: 0x3C83F6, transparent: true, opacity: 0,
+      depthTest: false, depthWrite: false,
+    });
+    const mesh = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), mat);
+    mesh.renderOrder = -1;
+    scene.add(mesh);
+    gsap.to(mat, { opacity:0.55, duration:1, delay:0.5, ease:'power2.out' });
+    webLines.push({ mesh, sp2 });
+  });
+}
+function clearWeb(){
+  webLines.forEach(({ mesh }) => { scene.remove(mesh); mesh.geometry.dispose(); mesh.material.dispose(); });
+  webLines = [];
+}
+const _wr = new THREE.Vector3(), _wu = new THREE.Vector3();
+function updateWeb(){
+  if (!selected) return;
+  const p1 = selected.position;
+  _wr.set(1,0,0).applyQuaternion(camera.quaternion);
+  _wu.set(0,1,0).applyQuaternion(camera.quaternion);
+  webLines.forEach(({ mesh, sp2 }) => {
+    const p2 = sp2.position;
+    const dx = p2.x-p1.x, dy = p2.y-p1.y, dz = p2.z-p1.z;
+    const len = Math.hypot(dx, dy, dz) || 0.0001;
+    mesh.position.set((p1.x+p2.x)/2, (p1.y+p2.y)/2, (p1.z+p2.z)/2);
+    mesh.quaternion.copy(camera.quaternion);
+    mesh.rotateZ(Math.atan2(dx*_wu.x+dy*_wu.y+dz*_wu.z, dx*_wr.x+dy*_wr.y+dz*_wr.z));
+    mesh.scale.set(len, STROKE_WIDTH, 1);
+  });
+}
+
+// Pulls the focused cover's nearest neighbors into a second, background
+// layer: spread out in the camera's view plane (so the web above reads as a
+// clear web, not an overlapping pile) and pushed back in depth so they
+// register as behind — smaller, layered — rather than crowding the
+// close-up focused cover. Every other cover goes back to its regular spot.
+// Rough/scattered placement around the ring is fine — it doesn't need to be tidy.
+function arrangeAround(sp, theta, dur){
+  const neighborSlugs = new Set(nearestSlugs(sp.userData.slug, 6));
+  const { right, up, dir } = viewPlaneBasis(theta, 1.5);
+  const p = sp.position;
+  const n = neighborSlugs.size;
+  const RING = 7.5, DEPTH = 5.5;
+  const neighborSprites = [];
+  let i = 0;
+  gsap.killTweensOf(sp.position);
+  covers.forEach((sp2, idx) => {
+    if (sp2 === sp) return;
+    gsap.killTweensOf(sp2.position);
+    if (neighborSlugs.has(sp2.userData.slug)){
+      const a = (i / n) * Math.PI*2 + (Math.random()*0.5 - 0.25);
+      const r = RING * (0.85 + Math.random()*0.3);
+      i++;
+      gsap.to(sp2.position, {
+        x: p.x + right.x*r*Math.cos(a) + up.x*r*Math.sin(a) - dir.x*DEPTH,
+        y: p.y + right.y*r*Math.cos(a) + up.y*r*Math.sin(a) - dir.y*DEPTH,
+        z: p.z + right.z*r*Math.cos(a) + up.z*r*Math.sin(a) - dir.z*DEPTH,
+        duration:dur, ease:'power3.inOut',
+      });
+      neighborSprites.push(sp2);
+    } else {
+      const h = homePos[idx];
+      gsap.to(sp2.position, { x:h.x, y:h.y, z:h.z, duration:dur, ease:'power3.inOut' });
+    }
+  });
+  buildWeb(sp, neighborSprites);
+  unsettleFor(dur);
+}
 
 // covers.json is regenerated daily by a GitHub Action that scrapes the
 // archive; fetching it at load time (instead of baking the data into this
@@ -130,6 +318,7 @@ async function loadCovers(){
   });
   bobPhase = covers.map(() => Math.random()*Math.PI*2);
   base = covers.map(sp => sp.position.y);
+  homePos = pos.map(([x, y, z]) => ({ x, y, z }));
   document.getElementById('count').textContent = data.length + ' números publicados';
 }
 loadCovers().catch(err => {
@@ -178,6 +367,23 @@ function showInfo(c){
   body.innerHTML = '';
   (c.body || []).forEach(p => { const d = document.createElement('div'); d.textContent = decode(p); body.appendChild(d); });
   document.getElementById('i-url').href = c.url;
+
+  // Phone-only grid (hidden by CSS on desktop, where the ring + web already
+  // show this). Built regardless of viewport since it's cheap and the images
+  // are lazy — but only fetched/laid out once the media query makes it visible.
+  const nbrWrap = document.getElementById('i-neighbors');
+  nbrWrap.innerHTML = '';
+  nearestSlugs(c.slug, 6).forEach(slug => {
+    const n = covers.find(sp => sp.userData.slug === slug);
+    if (!n) return;
+    const img = document.createElement('img');
+    img.src = n.userData.image_thumb;
+    img.alt = decode(n.userData.title || '');
+    img.loading = 'lazy';
+    img.onclick = () => focus(n);
+    nbrWrap.appendChild(img);
+  });
+
   panel.scrollTop = 0;
 }
 function revealPanel(){ panel.classList.add('open'); hint.style.display = 'none'; }
@@ -191,6 +397,8 @@ function focus(sp){
   let theta = Math.atan2(p.x, p.z);
   theta += Math.round((ctrl.theta - theta) / (Math.PI*2)) * Math.PI*2 - Math.PI*2;
   const dur = 1.9;
+  highlightSimilar(sp);
+  arrangeAround(sp, theta, dur);
   gsap.killTweensOf(ctrl); gsap.killTweensOf(ctrl.target);
   gsap.to(ctrl, { theta, phi:1.5, pan:panFor(7.5), duration:dur, ease:'power3.inOut' });
   gsap.to(ctrl, { keyframes:[{ radius:44, duration:dur*0.45, ease:'power2.out' }, { radius:7.5, duration:dur*0.55, ease:'power3.inOut' }] });
@@ -207,6 +415,15 @@ function deselect(){
   selected = null;
   if (revealTween) { revealTween.kill(); revealTween = null; }
   hideInfo(); auto = true;
+  clearHighlight();
+  clearWeb();
+  const dur = 1.4;
+  covers.forEach((sp2, i) => {
+    gsap.killTweensOf(sp2.position);
+    const h = homePos[i];
+    gsap.to(sp2.position, { x:h.x, y:h.y, z:h.z, duration:dur, ease:'power3.inOut' });
+  });
+  unsettleFor(dur);
   gsap.killTweensOf(ctrl); gsap.killTweensOf(ctrl.target);
   gsap.to(ctrl, { radius:34, phi:1.3, pan:0, duration:1.4, ease:'power3.inOut' });
   gsap.to(ctrl.target, { x:0, y:0, z:0, duration:1.2, ease:'power3.inOut' });
@@ -215,8 +432,12 @@ function shuffle(){
   selected = null;
   if (revealTween) { revealTween.kill(); revealTween = null; }
   hideInfo();
+  clearHighlight();
+  clearWeb();
   const p = layout(covers.length, Math.floor(Math.random()*9999)+2);
-  covers.forEach((sp,i) => { base[i] = p[i][1]; gsap.to(sp.position, { x:p[i][0], y:p[i][1], z:p[i][2], duration:1.4, ease:'power2.inOut' }); });
+  homePos = p.map(([x, y, z]) => ({ x, y, z }));
+  covers.forEach((sp,i) => { gsap.killTweensOf(sp.position); base[i] = p[i][1]; gsap.to(sp.position, { x:p[i][0], y:p[i][1], z:p[i][2], duration:1.4, ease:'power2.inOut' }); });
+  unsettleFor(1.4);
   gsap.to(ctrl, { radius:34, phi:1.3, pan:0, duration:1.2, ease:'power3.inOut' });
   gsap.to(ctrl.target, { x:0, y:0, z:0, duration:1.2, ease:'power3.inOut' });
   auto = true;
@@ -295,7 +516,8 @@ const t0 = performance.now();
 (function tick(){
   const t = (performance.now() - t0)/1000;
   if (auto && !selected) ctrl.theta += 0.0011;
-  if (!selected) covers.forEach((sp,i) => { sp.position.y = base[i] + Math.sin(t*0.35 + bobPhase[i])*0.35; });
+  if (!selected && settled) covers.forEach((sp,i) => { sp.position.y = base[i] + Math.sin(t*0.35 + bobPhase[i])*0.35; });
+  if (webLines.length) updateWeb();
   applyCamera();
   renderer.render(scene, camera);
   requestAnimationFrame(tick);

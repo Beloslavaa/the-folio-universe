@@ -4,6 +4,7 @@
   "description": "Scrapes thefolioarchivo.com into covers.json for the 3D universe visualization",
   "type": "module",
   "scripts": {
-    "scrape": "node scripts/scrape.mjs"
+    "scrape": "node scripts/scrape.mjs",
+    "embed": "python3 scripts/embed.py"
   }
 }

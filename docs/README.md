@@ -3,12 +3,15 @@
 Scrapes [thefolioarchivo.com](https://thefolioarchivo.com) (a Cargo-hosted
 site) into a single `public/covers.json`, and serves `index.html` — a Three.js
 "floating universe" of the covers — that reads it. A GitHub Action re-runs the
-scrape daily so new covers flow through automatically.
+scrape daily so new covers flow through automatically. The same Action also
+computes CNN embeddings for any new covers (`public/embeddings.json`), which
+`index.html` uses to highlight similar covers when one is focused.
 
 ## Pipeline
 
 ```
 Cargo site  ->  GitHub Action (daily)  ->  scrape.mjs  ->  public/covers.json  ->  index.html fetch()
+                                        ->  embed.py    ->  public/embeddings.json ->  index.html fetch()
 ```
 
 1. You add a cover to the site in Cargo, as normal.
@@ -31,6 +34,17 @@ npm run scrape
 ```
 
 No install step — the scraper is plain Node (18+) `fetch`, no dependencies.
+
+To (re)compute embeddings locally:
+
+```bash
+pip install -r requirements.txt
+npm run embed
+```
+
+This needs `public/covers.json` to already exist (run the scraper first) and
+downloads each cover's `image_thumb` from Cargo's CDN, so it needs network
+access. TensorFlow's first import is slow; subsequent covers are fast.
 
 To preview `index.html` locally (it needs `public/covers.json` served over
 HTTP, not opened as a `file://` URL):
