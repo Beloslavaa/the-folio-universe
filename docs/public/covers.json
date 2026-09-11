@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T10:23:31.628Z",
+  "generated_at": "2026-09-11T10:24:50.532Z",
   "source": "https://thefolioarchivo.com",
-  "count": 29,
+  "count": 31,
   "covers": [
     {
       "slug": "032c_amelia",
@@ -81,6 +81,21 @@
       "image_source": "https://freight.cargo.site/w/1080/i/Y3048406346985256130883497576629/DAZED_FEBRERO_2002_001.jpg"
     },
     {
+      "slug": "dazed_oct_2002",
+      "url": "https://thefolioarchivo.com/dazed_oct_2002",
+      "title": "Dazed & Confussed (2002)",
+      "sub": "Fashion made me hardcore",
+      "meta": "",
+      "body": [
+        "Dazed & Confused, hoy conocida simplemente como Dazed, nació en Londres en 1991 de la mano de Jefferson Hack y Rankin como una revista independiente dedicada a moda, música, arte y cultura juvenil. Desde el principio, su propuesta se construyó alrededor de una mirada experimental y provocadora, convirtiéndose en una de las publicaciones fundamentales de la cultura visual británica de los 90 y los 2000.",
+        "El número 94, publicado en octubre de 2002, está protagonizado en portada por Michelle Hicks, fotografiada por Rankin y con styling de Hector Castro. La imagen, en blanco y negro y con una estética deliberadamente cruda, muestra a Hicks en una pose casi desafiante, mientras el titular “Fashion Made Me Hardcore” resume la actitud del número: moda llevada al límite, mezclada con una energía más cercana a la cultura underground que a la idea tradicional de editorial de moda.",
+        "El interior continúa explorando esa relación entre moda, música y cultura de club, con editoriales de fotografía y contenidos que reflejan el espíritu experimental de Dazed en aquel momento."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg"
+    },
+    {
       "slug": "dazed_sofia_coppola",
       "url": "https://thefolioarchivo.com/dazed_sofia_coppola",
       "title": "Dazed & Confussed (November 2006)",
@@ -123,6 +138,21 @@
       "image_full": "https://freight.cargo.site/w/1600/i/X2904519449320802574348535023797/i-D-1999-October-Uplift.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/X2904519449320802574348535023797/i-D-1999-October-Uplift.jpg",
       "image_source": "https://freight.cargo.site/w/1080/i/X2904519449320802574348535023797/i-D-1999-October-Uplift.jpg"
+    },
+    {
+      "slug": "i-d_esdeekid",
+      "url": "https://thefolioarchivo.com/i-d_esdeekid",
+      "title": "i-D (2026)",
+      "sub": "For the real ones",
+      "meta": "",
+      "body": [
+        "Nacida en Londres en 1980, i-D es una de las publicaciones que más ha influido en la evolución de la cultura juvenil y la moda contemporánea. Desde sus primeros números, la revista ha construido una identidad propia alrededor de la fotografía, la música, el estilo y las subculturas, dando espacio a nuevas generaciones de creativos y tratando la moda como una forma de expresión cultural antes que como un producto.",
+        "Este número de 2026 lleva a EsDeeKid en portada y continúa esa tradición de mirar hacia los personajes que están definiendo el presente. La portada, bajo el lema “For the real ones”, apuesta por una imagen directa y cruda: el artista aparece completamente vestido de negro, ocultando parcialmente su rostro, acompañado de un perro y fotografiado con una estética casi documental. La composición, dominada por el blanco, el negro y el amarillo, mantiene el carácter gráfico y provocador asociado históricamente a i-D.",
+        "En el interior, el número reúne moda, música y cultura contemporánea a través de una mezcla de entrevistas, fotografía y reportajes. Junto a EsDeeKid aparecen nombres como SZA, Bhavitha, Martin Parr, Simone Rocha, Martine Rose, Hasán Piker y Jack Antonoff, además de contenidos que recorren desde las nuevas generaciones creativas hasta fenómenos culturales más inesperados."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/Q3127594657153623626361730320565/iD_2026_ESDEEKID_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/Q3127594657153623626361730320565/iD_2026_ESDEEKID_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/Q3127594657153623626361730320565/iD_2026_ESDEEKID_001.jpg"
     },
     {
       "slug": "i-d_family",
