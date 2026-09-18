@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T10:48:05.990Z",
+  "generated_at": "2026-09-18T10:23:39.055Z",
   "source": "https://thefolioarchivo.com",
-  "count": 31,
+  "count": 33,
   "covers": [
     {
       "slug": "032c_amelia",
@@ -123,6 +123,21 @@
       "image_full": "https://freight.cargo.site/w/1600/i/E2937031343665370748795736115381/DAZED_YUNGLEAN.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/E2937031343665370748795736115381/DAZED_YUNGLEAN.jpg",
       "image_source": "https://freight.cargo.site/w/1080/i/E2937031343665370748795736115381/DAZED_YUNGLEAN.jpg"
+    },
+    {
+      "slug": "dust_badgyal",
+      "url": "https://thefolioarchivo.com/dust_badgyal",
+      "title": "Dust (2023)",
+      "sub": "The Spanish Issue",
+      "meta": "",
+      "body": [
+        "DUST es una revista independiente de moda y cultura contemporánea nacida en Berlín. Con una fuerte orientación hacia la fotografía, el arte y la moda, sus números combinan editoriales visuales con conversaciones y textos sobre cultura, sociedad y actualidad. El número 22, publicado para Spring/Summer 2023, se aleja de la habitual aproximación más existencial de la revista para centrarse en un lugar concreto: España.",
+        "Esta edición, titulada The Spanish Issue, está protagonizada en esta portada por Bad Gyal, fotografiada para la revista y vestida de Loewe. La imagen, limpia y frontal, juega con el enorme logotipo de DUST y una estética deliberadamente sensual y pop, mientras los accesorios de la firma española funcionan casi como una extensión del cuerpo. La portada resume bien la intención del número: observar la cultura española contemporánea desde dentro, a través de sus protagonistas y de una mirada internacional.",
+        "En sus 447 páginas, DUST reúne moda, fotografía, arte, música y cultura alrededor de una nueva generación creativa española. El interior incluye trabajos y conversaciones con figuras como Pedro Almodóvar, Penélope Cruz, Rossy de Palma, Jon Kortajarena, Palomo Spain, Alejandro Gómez Palomo, Sónar, Manu Ríos, Martiño Rivas y, por supuesto, Bad Gyal, entre muchos otros. También aparecen textos sobre la historia y la identidad española, desde la influencia de Al-Ándalus hasta la escena cultural contemporánea. Es un retrato amplio de una España creativa que la revista presenta como un territorio especialmente fértil para la moda, el arte y la cultura."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/K3138746044069112993419738040501/DUST_SPANISH_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/K3138746044069112993419738040501/DUST_SPANISH_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/K3138746044069112993419738040501/DUST_SPANISH_001.jpg"
     },
     {
       "slug": "i-d_ascensor",
@@ -379,6 +394,21 @@
       "image_full": "https://freight.cargo.site/w/1600/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg",
       "image_source": "https://freight.cargo.site/w/1080/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg"
+    },
+    {
+      "slug": "tf_katemoss",
+      "url": "https://thefolioarchivo.com/tf_katemoss",
+      "title": "The Face (1993)",
+      "sub": "Fashion made me hardcore",
+      "meta": "",
+      "body": [
+        "The Face fue una de las revistas británicas que más contribuyó a definir la relación entre moda, música y cultura juvenil desde los años 80. Fundada en Londres en 1980 por Nick Logan, convirtió la revista en un espacio donde convivían fotografía, estilo, música, cine y cultura de calle, con una dirección artística especialmente influyente. Durante los primeros 90, su lenguaje visual se volvió más crudo y espontáneo, dando protagonismo a una nueva generación de fotógrafos, estilistas y modelos.",
+        "El número 54, de marzo de 1993, lleva a una joven Kate Moss en portada, fotografiada por Glen Luchford. Con apenas 19 años, Moss aparece en una imagen en blanco y negro, sencilla y directa, muy alejada del glamour tradicional de las revistas de moda. El titular la presenta como “this year’s model”, reflejando el momento en el que comenzaba a convertirse en uno de los rostros más importantes de la moda de los 90. La fotografía forma parte de la etapa de The Face que ayudó a establecer una estética más natural, cercana y radical en la fotografía de moda.",
+        "En el interior, el número funciona como una fotografía bastante precisa de la cultura británica y popular de principios de los 90. Kate Moss protagoniza un reportaje de siete páginas sobre su ascenso en la moda, acompañado por contenidos sobre Suede, Lenny Kravitz, Keanu Reeves, General Levy, Black Francis y Zoo TV, además de un artículo dedicado a Malcolm X"
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/D3138753961928178263623159072949/THEFACE_KATEMOSS_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/D3138753961928178263623159072949/THEFACE_KATEMOSS_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/D3138753961928178263623159072949/THEFACE_KATEMOSS_001.jpg"
     },
     {
       "slug": "tf_kylie",
