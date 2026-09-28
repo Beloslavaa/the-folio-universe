@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T11:10:45.427Z",
+  "generated_at": "2026-09-28T12:37:50.279Z",
   "source": "https://thefolioarchivo.com",
-  "count": 33,
+  "count": 34,
   "covers": [
     {
       "slug": "032c_amelia",
@@ -211,6 +211,21 @@
       "image_full": "https://freight.cargo.site/w/1600/i/G2937031103230508492065440352437/i-D_PRESPRING_010.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/G2937031103230508492065440352437/i-D_PRESPRING_010.jpg",
       "image_source": "https://freight.cargo.site/w/1080/i/G2937031103230508492065440352437/i-D_PRESPRING_010.jpg"
+    },
+    {
+      "slug": "i-d-earthwise",
+      "url": "https://thefolioarchivo.com/i-d-earthwise",
+      "title": "i-D (2018)",
+      "sub": "The Earthwise Issue",
+      "meta": "",
+      "body": [
+        "i-D nació en Londres en 1980 de la mano de Terry Jones como un pequeño fanzine dedicado a la moda de calle, el punk y las nuevas subculturas. Con el tiempo se convirtió en una de las publicaciones más influyentes de la cultura juvenil, cruzando moda, música, fotografía y arte y dando espacio a una nueva generación de fotógrafos, estilistas y diseñadores. Su característico logotipo, que al girarse forma una cara guiñando el ojo, terminó convirtiéndose en uno de los símbolos más reconocibles del mundo editorial.",
+        "El nº 353, publicado en otoño de 2018, es The Earthwise Issue, un número dedicado a la relación entre moda, sostenibilidad y futuro. La portada muestra a Adesuwa Aighewi en un retrato en blanco y negro fotografiado por Oliver Hadlee Pearch, sobre el que aparece el mensaje “imagine you could be the one to change it all”. Una portada mucho más contenida de lo habitual que utiliza la fotografía y la tipografía para plantear directamente la pregunta que atraviesa todo el número: qué podemos cambiar y qué tipo de futuro queremos construir.",
+        "El interior reúne moda, activismo, fotografía y cultura alrededor de esa misma idea. Entre sus contenidos aparecen conversaciones con Chimamanda Ngozi Adichie, el fundador de Parley for the Oceans Cyrill Gutsch y la activista Naomi Wadler, además de trabajos sobre los residuos de la industria de la moda, el plástico de un solo uso y una nueva generación de diseñadores que plantea formas más éticas de producir. También destacan editoriales fotografiados por Campbell Addy, Ethan James Green, Kristin-Lee Moolman y Harley Weir, junto a nombres como Adut Akech, Anok Yai, Grace Wales Bonner, Marine Serre o Christine and the Queens."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/K3154646844913736361952950962357/iD_2018_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/K3154646844913736361952950962357/iD_2018_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/K3154646844913736361952950962357/iD_2018_001.jpg"
     },
     {
       "slug": "iloveyou_2013",
