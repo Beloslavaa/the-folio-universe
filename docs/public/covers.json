@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30T11:44:50.975Z",
+  "generated_at": "2026-10-01T12:14:01.473Z",
   "source": "https://thefolioarchivo.com",
-  "count": 34,
+  "count": 35,
   "covers": [
     {
       "slug": "032c_amelia",
@@ -258,6 +258,21 @@
       "image_full": "https://freight.cargo.site/w/1600/i/X2965634060674236189500217051317/INTERVIEW-OCTUBRE-2001-KARL_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/X2965634060674236189500217051317/INTERVIEW-OCTUBRE-2001-KARL_0001.jpg",
       "image_source": "https://freight.cargo.site/w/1080/i/X2965634060674236189500217051317/INTERVIEW-OCTUBRE-2001-KARL_0001.jpg"
+    },
+    {
+      "slug": "interview-lana",
+      "url": "https://thefolioarchivo.com/interview-lana",
+      "title": "Interview (2023)",
+      "sub": "Issue 547",
+      "meta": "",
+      "body": [
+        "Interview nació en Nueva York en 1969 de la mano de Andy Warhol y John Wilcock. Lo que comenzó como una pequeña publicación dedicada al cine terminó convirtiéndose en una crónica de la cultura popular, el arte, la moda y la vida nocturna de Nueva York. Su formato más reconocible —poner a dos figuras interesantes frente a frente y dejar que la conversación sea el contenido— convirtió las entrevistas entre celebridades en una parte fundamental de su identidad.",
+        "El número 547, de marzo de 2023, lleva a Lana Del Rey en portada, fotografiada por Nadia Lee Cohen. La imagen la presenta como una novia de estética sesentera, con vestido blanco de Dior, velo y un cigarrillo entre los labios, en una fotografía que mezcla glamour, nostalgia y cierta teatralidad. La portada forma parte de una producción de gran escala concebida por el equipo de Interview para recuperar y exagerar algunos de los códigos visuales asociados a la propia Lana.",
+        "El interior continúa con esta estética de Hollywood clásico, romance y cultura pop, con una extensa producción protagonizada por Del Rey junto a varios modelos y estilizada por Mel Ottenberg, utilizando firmas como Gucci, Coach, Loro Piana, Mirror Palais o Batsheva. Pero el centro del número es la conversación entre Lana Del Rey y Billie Eilish, dos generaciones de compositoras que hablan sobre música, exposición pública, creatividad y la relación que ambas mantienen con sus propias imágenes."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/C3159573006413446331865512626357/INTERVIEW_LANA_DEL_REY_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/C3159573006413446331865512626357/INTERVIEW_LANA_DEL_REY_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/C3159573006413446331865512626357/INTERVIEW_LANA_DEL_REY_001.jpg"
     },
     {
       "slug": "jalouse_laidback",
