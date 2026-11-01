@@ -66,7 +66,7 @@
     <div id="i-sub"></div>
     <div id="i-meta"></div>
     <div id="i-body"></div>
-    <a id="i-url" target="_blank" rel="noopener" class="cta">[ ver el número completo ]</a>
+    <a id="i-url" target="_top" class="cta">[ ver el número completo ]</a>
     <div id="i-neighbors"></div>
   </div>
   <div class="br">© thefolio. 2026</div>
@@ -456,6 +456,22 @@ function shuffle(){
   auto = true;
 }
 document.getElementById('close').onclick = deselect;
+
+// When embedded in the Cargo site, ask the parent page to open the issue the
+// way Cargo does (over the homepage, with the side columns). The parent snippet
+// (cargo-embed.html) answers with 'folio-ack'. If it doesn't answer (snippet
+// missing, or not embedded), fall back to a plain same-tab navigation.
+let folioAcked = false;
+addEventListener('message', e => { if (e.data && e.data.type === 'folio-ack') folioAcked = true; });
+document.getElementById('i-url').addEventListener('click', e => {
+  if (window.parent === window) return; // standalone: normal link
+  e.preventDefault();
+  const url = e.currentTarget.href;
+  const slug = url.split('/').pop();
+  folioAcked = false;
+  window.parent.postMessage({ type:'folio-open', slug }, '*');
+  setTimeout(() => { if (!folioAcked) window.open(url, '_top'); }, 400);
+});
 
 function pick(e){
   ndc.x = (e.clientX / innerWidth) * 2 - 1;
