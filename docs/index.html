@@ -7,27 +7,27 @@
 <style>
   html, body { margin:0; padding:0; background:#fff; overflow:hidden; }
   canvas { display:block; touch-action:none; }
-  #ui { position:fixed; inset:0; pointer-events:none; font-family:Arial, Helvetica, sans-serif; color:#3C83F6; -webkit-font-smoothing:antialiased; }
+  #ui { position:fixed; inset:0; pointer-events:none; font-family:Arial, Helvetica, sans-serif; color:rgba(7, 52, 239, 0.98); -webkit-font-smoothing:antialiased; }
   #ui a, #ui .btn { pointer-events:auto; }
-  a { color:#3C83F6; text-decoration:none; }
+  a { color:rgba(7, 52, 239, 0.98); text-decoration:none; }
   a:hover { text-decoration:underline; }
   .tl { position:absolute; top:22px; left:24px; font-size:14px; line-height:1.35; }
   .btn { cursor:pointer; }
   .btn:hover { text-decoration:underline; }
   .bl { position:absolute; bottom:22px; left:24px; max-width:340px; font-size:13px; line-height:1.45; }
-  .br { position:absolute; bottom:22px; right:24px; font-size:13px; color:#3C83F6; }
-  #panel { position:absolute; top:0; right:0; bottom:0; width:min(400px, 40vw); padding:22px 24px 28px; box-sizing:border-box; display:flex; flex-direction:column; gap:10px; overflow:auto; -webkit-overflow-scrolling:touch; background:#fff; border-left:1px solid rgba(60,131,246,0.25); pointer-events:none; z-index:5; opacity:0; transform:translateX(28px); transition:opacity .45s ease, transform .45s ease; }
+  .br { position:absolute; bottom:22px; right:24px; font-size:13px; color:rgba(7, 52, 239, 0.98); }
+  #panel { position:absolute; top:0; right:0; bottom:0; width:min(400px, 40vw); padding:22px 24px 28px; box-sizing:border-box; display:flex; flex-direction:column; gap:10px; overflow:auto; -webkit-overflow-scrolling:touch; background:#fff; border-left:1px solid rgba(7,52,239,0.25); pointer-events:none; z-index:5; opacity:0; transform:translateX(28px); transition:opacity .45s ease, transform .45s ease; }
   #panel.open { pointer-events:auto; opacity:1; transform:translateX(0); }
   .panel-head { display:flex; justify-content:space-between; align-items:baseline; gap:16px; }
   #i-title { font-style:normal; font-weight:500; font-size:19px; line-height:1.2; }
   #close { font-size:13px; white-space:nowrap; }
   #i-sub { font-style:normal; font-size:15px; }
-  #i-meta { font-style:normal; color:#3C83F6; font-size:13px; }
-  #i-body { display:flex; flex-direction:column; gap:11px; margin-top:6px; font-size:13.5px; line-height:1.55; color:#3C83F6; text-wrap:pretty; }
-  .cta { display:block; margin-top:16px; font-size:22px; font-weight:700; color:#3C83F6; text-decoration:none; }
-  .cta:hover { color:#2f6fd8; text-decoration:none; }
+  #i-meta { font-style:normal; color:rgba(7, 52, 239, 0.98); font-size:13px; }
+  #i-body { display:flex; flex-direction:column; gap:11px; margin-top:6px; font-size:13.5px; line-height:1.55; color:rgba(7, 52, 239, 0.98); text-wrap:pretty; }
+  .cta { display:block; margin-top:16px; font-size:22px; font-weight:700; color:rgba(7, 52, 239, 0.98); text-decoration:none; }
+  .cta:hover { color:rgba(7, 52, 239, 1); text-decoration:none; }
   .it { font-style:normal; }
-  .mut { color:#3C83F6; }
+  .mut { color:rgba(7, 52, 239, 0.98); }
   /* Similar-covers grid: only shown on phone (see media query below) — on
      desktop the ring + highlighter web already do this job next to the panel. */
   #i-neighbors { display:none; }
@@ -236,7 +236,7 @@ function buildWeb(sp, neighborSprites){
   clearWeb();
   neighborSprites.forEach(sp2 => {
     const mat = new THREE.MeshBasicMaterial({
-      map: markerTexture, color: 0x3C83F6, transparent: true, opacity: 0,
+      map: markerTexture, color: 0x0734EF, transparent: true, opacity: 0,
       depthTest: false, depthWrite: false,
     });
     const mesh = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), mat);
