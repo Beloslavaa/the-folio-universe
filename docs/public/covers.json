@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02T14:29:33.652Z",
+  "generated_at": "2026-11-03T13:26:34.282Z",
   "source": "https://thefolioarchivo.com",
-  "count": 35,
+  "count": 37,
   "covers": [
     {
       "slug": "032c_amelia",
@@ -94,6 +94,21 @@
       "image_full": "https://freight.cargo.site/w/1600/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg",
       "image_source": "https://freight.cargo.site/w/1080/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg"
+    },
+    {
+      "slug": "dazed_pharrell",
+      "url": "https://thefolioarchivo.com/dazed_pharrell",
+      "title": "Dazed & Confussed (2003)",
+      "sub": "Pharrell King of Beats",
+      "meta": "",
+      "body": [
+        "Dazed & Confused nació en Londres en 1991 de la mano de Jefferson Hack y Rankin. Desde sus comienzos se convirtió en una de las publicaciones de referencia de la cultura juvenil, conectando moda, música, arte y fotografía desde una perspectiva alternativa. Su propuesta editorial siempre ha estado ligada a las nuevas escenas creativas y a los personajes que contribuyen a definirlas.",
+        "El número de mayo de 2003 lleva a Pharrell Williams en portada, fotografiado por Rankin bajo el titular “King of the Beats”. La imagen, de tonos rojizos y estética contundente, presenta al músico y productor en plena consolidación de su influencia dentro del hip-hop y la cultura pop. La portada también adelanta algunos de los temas centrales de la edición: el streetwear de 2003, el universo de N.E.R.D. y The Neptunes y la relación entre música, moda y cultura urbana.",
+        "El interior gira principalmente alrededor de la música y su relación con la moda. Pharrell conversa con Roy Ayers, una de sus grandes referencias musicales, en un encuentro que conecta el hip-hop con el jazz y el soul. La edición también incluye un recorrido por las colecciones de streetwear de 2003, un acercamiento a N.E.R.D. y The Neptunes, un artículo sobre el futuro tecnológico a través del escritor William Gibson y una retrospectiva de Soul II Soul."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/H3212198585524027608214037416117/DAZED_MAYO_2003_PHARRELL_WILLIAMS_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/H3212198585524027608214037416117/DAZED_MAYO_2003_PHARRELL_WILLIAMS_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/H3212198585524027608214037416117/DAZED_MAYO_2003_PHARRELL_WILLIAMS_001.jpg"
     },
     {
       "slug": "dazed_sofia_coppola",
@@ -424,6 +439,21 @@
       "image_full": "https://freight.cargo.site/w/1600/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg",
       "image_source": "https://freight.cargo.site/w/1080/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg"
+    },
+    {
+      "slug": "tf_freaklechic_1988",
+      "url": "https://thefolioarchivo.com/tf_freaklechic_1988",
+      "title": "The Face (June 1988)",
+      "sub": "Freak le chic",
+      "meta": "",
+      "body": [
+        "The Face fue una de las publicaciones británicas más influyentes en la construcción de la cultura visual de los años 80 y 90. Fundada en Londres en 1980 por Nick Logan, la revista conectaba música, moda, arte, política y cultura de club, documentando las escenas emergentes y los personajes que definían cada momento. Su combinación de periodismo cultural y experimentación gráfica, especialmente durante la dirección artística de Neville Brody, transformó la manera de entender las revistas de estilo.",
+        "El número 98, de junio de 1988, presenta una portada titulada “Freak Le Chic”. La fotografía, realizada por Stéphane Sednaoui, muestra una figura vestida con una mezcla de prendas de colores intensos, texturas y accesorios exagerados. Una imagen que juega con la extravagancia y la teatralidad de la moda de finales de los 80, alejándose de los códigos más convencionales del lujo.",
+        "El interior recorre distintas expresiones de la cultura musical y visual del momento. Destacan contenidos sobre George Clinton y el universo del funk, The Style Council, Scritti Politti, la música raï y KRS-One, además de un reportaje sobre los activistas de ACT UP y las protestas contra la respuesta institucional a la crisis del sida. También incluye un artículo sobre el Black Album de Prince y otro dedicado al artista Krzysztof Wodiczko y sus proyecciones sobre edificios y monumentos."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/I3212205522440583270764632164533/THEFACE_1988_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/I3212205522440583270764632164533/THEFACE_1988_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/I3212205522440583270764632164533/THEFACE_1988_001.jpg"
     },
     {
       "slug": "tf_katemoss",
