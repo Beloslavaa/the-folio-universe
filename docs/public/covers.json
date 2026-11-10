@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09T14:53:58.541Z",
+  "generated_at": "2026-11-10T14:06:59.808Z",
   "source": "https://thefolioarchivo.com",
-  "count": 39,
+  "count": 40,
   "covers": [
     {
       "slug": "032c_amelia",
@@ -33,6 +33,21 @@
       "image_full": "https://freight.cargo.site/w/1600/i/C3048395380359010822407642761397/032C_20223_LILUZIVERT_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/C3048395380359010822407642761397/032C_20223_LILUZIVERT_001.jpg",
       "image_source": "https://freight.cargo.site/w/1080/i/C3048395380359010822407642761397/032C_20223_LILUZIVERT_001.jpg"
+    },
+    {
+      "slug": "032c-2hollis",
+      "url": "https://thefolioarchivo.com/032c-2hollis",
+      "title": "032c (2025)",
+      "sub": "Ad Astra Per Aspera",
+      "meta": "",
+      "body": [
+        "32c es una revista independiente de moda y cultura contemporánea fundada en Berlín en el año 2000 por Joerg Koch. Desde sus inicios ha explorado los cruces entre moda, arte, música, política y tecnología, con una perspectiva crítica y experimental. Su identidad visual, a menudo provocadora, combina fotografía, diseño gráfico y textos que buscan ir más allá de las tendencias del momento.",
+        "El número 47, Summer 2025, presenta en una de sus portadas a 2HOLLIS, uno de los nombres emergentes de la música electrónica y el rap estadounidense. Fotografiado por Brandon Bowen y con estilismo de David Friend, el artista protagoniza un retrato que acompaña una conversación con la periodista Cassidy George. En ella habla sobre su trayectoria, su relación con la música y algunos episodios personales, entre ellos el incendio de su casa durante la infancia, del que únicamente conservó una carta del tarot: The Star.",
+        "El eje conceptual de esta edición es el tecno-feudalismo, una reflexión sobre el poder de las grandes plataformas tecnológicas, la economía digital y el futuro de la democracia. El dossier central está diseñado por David Carson y reúne textos de pensadores como Cédric Durand y Jens Hillebrand Pohl. El resto del número amplía esta mirada con una producción de Gabbriette fotografiada por Steven Klein, trabajos sobre artistas como Wolfgang Tillmans, Boris Mikhailov, Hito Steyerl y Cyprien Gaillard, y una conversación con Lorenzo Bertelli, hijo de Miuccia Prada. También aparecen nombres como Thaiboy Digital, Hideo Kojima, Nicolas Winding Refn, IC3PEAK y Sematary. Una edición que conecta música, arte, moda y tecnología para plantear algunas de las tensiones culturales y políticas del presente."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/A3223304700901379879133207939253/032C_2025_2HOLLIS_002.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/A3223304700901379879133207939253/032C_2025_2HOLLIS_002.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/A3223304700901379879133207939253/032C_2025_2HOLLIS_002.jpg"
     },
     {
       "slug": "buffalo_lookalike",
