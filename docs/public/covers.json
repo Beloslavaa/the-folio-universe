@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T13:23:34.497Z",
+  "generated_at": "2026-11-12T14:27:58.458Z",
   "source": "https://thefolioarchivo.com",
-  "count": 40,
+  "count": 41,
   "covers": [
     {
       "slug": "032c_amelia",
@@ -561,6 +561,21 @@
       "image_full": "https://freight.cargo.site/w/1600/i/E2904517333460810575789255116981/The-Face-1997-MARCH.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/E2904517333460810575789255116981/The-Face-1997-MARCH.jpg",
       "image_source": "https://freight.cargo.site/w/1080/i/E2904517333460810575789255116981/The-Face-1997-MARCH.jpg"
+    },
+    {
+      "slug": "vogue-nipon-2009",
+      "url": "https://thefolioarchivo.com/vogue-nipon-2009",
+      "title": "Vogue Nipon (June 2009)",
+      "sub": "Natural Wonder",
+      "meta": "",
+      "body": [
+        "Vogue Nippon fue el nombre que recibió la edición japonesa de Vogue desde su lanzamiento en 1999 hasta 2011, cuando pasó a llamarse Vogue Japan. Como otras ediciones internacionales de la publicación, combina moda, fotografía, belleza y cultura, pero con una mirada especialmente conectada con la escena creativa japonesa y su relación con las tendencias internacionales.",
+        "El número de junio de 2009 presenta a Natasha Poly en portada, fotografiada por el dúo Inez & Vinoodh. La modelo aparece con una gabardina beige en una imagen de estética natural y depurada, acompañada por el titular “Natural Wonder” y una referencia a la belleza orgánica de Tokio. Una portada que anticipa el tema principal de la edición: la incorporación de una forma de vida más sostenible al universo de la moda y el lujo.",
+        "El interior desarrolla esta idea a través de editoriales y reportajes dedicados a la moda, la cosmética, la alimentación y el bienestar, explorando cómo incorporar hábitos más responsables sin renunciar al estilo. También incluye un especial sobre cine en el que once escritoras japonesas reflexionan sobre películas como Gran Torino, Milk o Slumdog Millionaire."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/M3226489140932601233525598144693/2009_JUNIO_VOGUE_JAPON_002.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/M3226489140932601233525598144693/2009_JUNIO_VOGUE_JAPON_002.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/M3226489140932601233525598144693/2009_JUNIO_VOGUE_JAPON_002.jpg"
     },
     {
       "slug": "w_mia_goth",
