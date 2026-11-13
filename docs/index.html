@@ -24,8 +24,10 @@
   #i-sub { font-style:normal; font-size:15px; }
   #i-meta { font-style:normal; color:rgba(7, 52, 239, 0.98); font-size:13px; }
   #i-body { display:flex; flex-direction:column; gap:11px; margin-top:6px; font-size:13.5px; line-height:1.55; color:rgba(7, 52, 239, 0.98); text-wrap:pretty; }
-  .cta { display:block; margin-top:16px; font-size:22px; font-weight:700; color:rgba(7, 52, 239, 0.98); text-decoration:none; }
-  .cta:hover { color:rgba(7, 52, 239, 1); text-decoration:none; }
+  /* The magazine's pages, stacked under the text like on the Cargo issue page. */
+  #i-pages { display:flex; flex-direction:column; gap:10px; margin-top:18px; }
+  #i-pages:empty { display:none; }
+  #i-pages img { display:block; width:100%; height:auto; background:rgba(7,52,239,0.06); }
   .it { font-style:normal; }
   .mut { color:rgba(7, 52, 239, 0.98); }
   /* Similar-covers grid: only shown on phone (see media query below) — on
@@ -40,7 +42,6 @@
     #i-title { font-size:17px; }
     #i-sub { font-size:14px; }
     #i-body { font-size:13px; }
-    .cta { font-size:18px; }
     #i-neighbors { display:grid; grid-template-columns:repeat(3, 1fr); gap:6px; margin-top:20px; }
     #i-neighbors:empty { display:none; }
     #i-neighbors img { width:100%; aspect-ratio:3/4; object-fit:cover; cursor:pointer; opacity:.82; transition:opacity .15s ease; }
@@ -66,7 +67,7 @@
     <div id="i-sub"></div>
     <div id="i-meta"></div>
     <div id="i-body"></div>
-    <a id="i-url" target="_top" class="cta">[ ver el número completo ]</a>
+    <div id="i-pages"></div>
     <div id="i-neighbors"></div>
   </div>
   <div class="br">© thefolio. 2026</div>
@@ -379,7 +380,20 @@ function showInfo(c){
   const body = document.getElementById('i-body');
   body.innerHTML = '';
   (c.body || []).forEach(p => { const d = document.createElement('div'); d.textContent = decode(p); body.appendChild(d); });
-  document.getElementById('i-url').href = c.url;
+
+  // The magazine's pages under the text. Width/height set the box size up
+  // front so the column doesn't jump while the lazy images load.
+  const pagesWrap = document.getElementById('i-pages');
+  pagesWrap.innerHTML = '';
+  (c.pages || []).forEach((pg, i) => {
+    const img = document.createElement('img');
+    img.src = pg.src;
+    if (pg.width && pg.height) { img.width = pg.width; img.height = pg.height; }
+    img.alt = `${decode(c.title || '')} — imagen ${i + 1}`;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    pagesWrap.appendChild(img);
+  });
 
   // Phone-only grid (hidden by CSS on desktop, where the ring + web already
   // show this). Built regardless of viewport since it's cheap and the images
@@ -456,22 +470,6 @@ function shuffle(){
   auto = true;
 }
 document.getElementById('close').onclick = deselect;
-
-// When embedded in the Cargo site, ask the parent page to open the issue the
-// way Cargo does (over the homepage, with the side columns). The parent snippet
-// (cargo-embed.html) answers with 'folio-ack'. If it doesn't answer (snippet
-// missing, or not embedded), fall back to a plain same-tab navigation.
-let folioAcked = false;
-addEventListener('message', e => { if (e.data && e.data.type === 'folio-ack') folioAcked = true; });
-document.getElementById('i-url').addEventListener('click', e => {
-  if (window.parent === window) return; // standalone: normal link
-  e.preventDefault();
-  const url = e.currentTarget.href;
-  const slug = url.split('/').pop();
-  folioAcked = false;
-  window.parent.postMessage({ type:'folio-open', slug }, '*');
-  setTimeout(() => { if (!folioAcked) window.open(url, '_top'); }, 400);
-});
 
 function pick(e){
   ndc.x = (e.clientX / innerWidth) * 2 - 1;

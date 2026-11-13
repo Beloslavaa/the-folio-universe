@@ -18,9 +18,10 @@
  *   <media-item hash="..." href="<slug>"> distinct from the detail page's
  *   media. buildCoverImageMap() reads those two grid pages to get the
  *   authoritative cover image per slug.
- * - One page (i-d_jolene-1) isn't linked from either grid, so it has no
- *   authoritative cover image; we fall back to the first image in its own
- *   gallery for that case only, and warn about it.
+ * - Newly uploaded issues often appear only on the "main — recent/vintage
+ *   archive" list pages and not yet on the index grids, so those list pages
+ *   are read too (as a lower-priority source). Only if a page is on none of
+ *   them do we fall back to the first image in its own gallery, with a warning.
  * - Parsing is isolated in parseState() / parsePage() so a change to
  *   Cargo's markup only touches those functions.
  * - Defensive throughout: one broken page must not kill the whole run.
@@ -38,6 +39,9 @@ const OUTPUT = 'public/covers.json';
 // viz gets predictable, optimised files. Cargo resizes on the fly via /w/<n>/.
 const THUMB_WIDTH = 600;
 const FULL_WIDTH = 1600;
+// Width for the magazine pages shown under the text in the universe's side
+// panel (a ~400px column, so this stays sharp on retina screens).
+const PAGE_WIDTH = 800;
 
 // Utility pages that live in the same page list as covers but aren't ones
 // (nav bars, footers, index overlays, the profile/about pages, etc).
@@ -59,8 +63,17 @@ const SKIP_PURLS = new Set([
   'vintage-archive-nav-—-desktop',
 ]);
 
-// The two grid pages that hold each cover's real front-cover thumbnail.
-const GRID_PURLS = ['recent-archive-index', 'vintage-archive-index'];
+// Pages that hold each cover's real front-cover thumbnail, lowest priority
+// first (later entries win). The two "main" list pages are where new issues
+// get added first — they're often missing from the index grids for a while,
+// so they act as a fallback. The index grids stay authoritative when both
+// list a slug.
+const GRID_PURLS = [
+  'main-—-recent-archive-1',
+  'main-—-vintage-archive',
+  'recent-archive-index',
+  'vintage-archive-index',
+];
 
 /** Build a Cargo freight image URL at a given width. */
 function imageUrl(hash, name, width) {
@@ -156,14 +169,23 @@ function buildCoverImageMap(pages) {
   return map;
 }
 
-/** First image in a cover page's own gallery — used only as a fallback. */
-function firstGalleryImage(page) {
+/**
+ * The images in a cover page's own gallery, in the order Cargo shows them.
+ * These are the magazine's inside pages (the front cover itself only lives
+ * on the archive grids/lists — see buildCoverImageMap()).
+ */
+function galleryImages(page) {
   const mediaByHash = new Map((page.media || []).map((m) => [m.hash, m]));
+  const seen = new Set();
+  const images = [];
   for (const tag of (page.content || '').matchAll(/<media-item\b[^>]*>/g)) {
     const hash = tag[0].match(/\bhash="([^"]+)"/)?.[1];
-    if (hash && mediaByHash.has(hash)) return mediaByHash.get(hash);
+    const m = hash && mediaByHash.get(hash);
+    if (!m || seen.has(hash) || m.is_image === false) continue;
+    seen.add(hash);
+    images.push(m);
   }
-  return null;
+  return images;
 }
 
 /**
@@ -175,10 +197,11 @@ function parsePage(purl, page, coverImageMap) {
   // A grid link can point at a stale base slug left behind when Cargo
   // auto-suffixed a renamed/duplicated page ("i-d_jolene" -> "i-d_jolene-1"),
   // so also try the purl with any trailing "-N" stripped before giving up.
+  const gallery = galleryImages(page);
   let chosen = coverImageMap.get(purl) || coverImageMap.get(purl.replace(/-\d+$/, ''));
   if (!chosen) {
-    console.warn(`  (not listed in an archive grid — falling back to first gallery image)`);
-    chosen = firstGalleryImage(page);
+    console.warn(`  (not listed in any archive grid/list — falling back to first gallery image)`);
+    chosen = gallery[0] || null;
   }
 
   return {
@@ -191,6 +214,12 @@ function parsePage(purl, page, coverImageMap) {
     image_full: chosen ? imageUrl(chosen.hash, chosen.name, FULL_WIDTH) : null,
     image_thumb: chosen ? imageUrl(chosen.hash, chosen.name, THUMB_WIDTH) : null,
     image_source: chosen ? imageUrl(chosen.hash, chosen.name, chosen.width || FULL_WIDTH) : null,
+    // The magazine's pages, shown under the text when a cover is opened.
+    pages: gallery.map((m) => ({
+      src: imageUrl(m.hash, m.name, PAGE_WIDTH),
+      width: m.width || null,
+      height: m.height || null,
+    })),
   };
 }
 

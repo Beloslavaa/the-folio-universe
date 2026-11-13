@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:45:39.287Z",
+  "generated_at": "2026-11-13T13:56:48.186Z",
   "source": "https://thefolioarchivo.com",
   "count": 41,
   "covers": [
@@ -17,7 +17,44 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/U2937031455692447508433843079349/2024_WINTER_AMELIAGREY_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/U2937031455692447508433843079349/2024_WINTER_AMELIAGREY_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/U2937031455692447508433843079349/2024_WINTER_AMELIAGREY_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/U2937031455692447508433843079349/2024_WINTER_AMELIAGREY_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/V2937024249896150227492823976117/2024_WINTER_AMELIAGREY_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z2937024250025277436008790837429/2024_WINTER_AMELIAGREY_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2937024250043724180082500389045/2024_WINTER_AMELIAGREY_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L2937024250062170924156209940661/2024_WINTER_AMELIAGREY_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2937024250080617668229919492277/2024_WINTER_AMELIAGREY_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M2937024250099064412303629043893/2024_WINTER_AMELIAGREY_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2937024250117511156377338595509/2024_WINTER_AMELIAGREY_008.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "032c_liluzi",
@@ -32,7 +69,59 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/C3048395380359010822407642761397/032C_20223_LILUZIVERT_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/C3048395380359010822407642761397/032C_20223_LILUZIVERT_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/C3048395380359010822407642761397/032C_20223_LILUZIVERT_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/C3048395380359010822407642761397/032C_20223_LILUZIVERT_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3040548065498447995717286185141/032C_20223_LILUZIVERT_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3040548065775149156822929459381/032C_20223_LILUZIVERT_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3040548065793595900896639010997/032C_20223_LILUZIVERT_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W3040548065812042644970348562613/032C_20223_LILUZIVERT_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3040548065830489389044058114229/032C_20223_LILUZIVERT_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3040548065848936133117767665845/032C_20223_LILUZIVERT_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C3040548065867382877191477217461/032C_20223_LILUZIVERT_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3040548065885829621265186769077/032C_20223_LILUZIVERT_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3040548065904276365338896320693/032C_20223_LILUZIVERT_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z3040548065922723109412605872309/032C_20223_LILUZIVERT_011.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "032c-2hollis",
@@ -45,9 +134,56 @@
         "El número 47, Summer 2025, presenta en una de sus portadas a 2HOLLIS, uno de los nombres emergentes de la música electrónica y el rap estadounidense. Fotografiado por Brandon Bowen y con estilismo de David Friend, el artista protagoniza un retrato que acompaña una conversación con la periodista Cassidy George. En ella habla sobre su trayectoria, su relación con la música y algunos episodios personales, entre ellos el incendio de su casa durante la infancia, del que únicamente conservó una carta del tarot: The Star.",
         "El eje conceptual de esta edición es el tecno-feudalismo, una reflexión sobre el poder de las grandes plataformas tecnológicas, la economía digital y el futuro de la democracia. El dossier central está diseñado por David Carson y reúne textos de pensadores como Cédric Durand y Jens Hillebrand Pohl. El resto del número amplía esta mirada con una producción de Gabbriette fotografiada por Steven Klein, trabajos sobre artistas como Wolfgang Tillmans, Boris Mikhailov, Hito Steyerl y Cyprien Gaillard, y una conversación con Lorenzo Bertelli, hijo de Miuccia Prada. También aparecen nombres como Thaiboy Digital, Hideo Kojima, Nicolas Winding Refn, IC3PEAK y Sematary. Una edición que conecta música, arte, moda y tecnología para plantear algunas de las tensiones culturales y políticas del presente."
       ],
-      "image_full": "https://freight.cargo.site/w/1600/i/A3223304700901379879133207939253/032C_2025_2HOLLIS_002.jpg",
-      "image_thumb": "https://freight.cargo.site/w/600/i/A3223304700901379879133207939253/032C_2025_2HOLLIS_002.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/A3223304700901379879133207939253/032C_2025_2HOLLIS_002.jpg"
+      "image_full": "https://freight.cargo.site/w/1600/i/E3223301363055273461758390782133/032C_2025_2HOLLIS_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/E3223301363055273461758390782133/032C_2025_2HOLLIS_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/E3223301363055273461758390782133/032C_2025_2HOLLIS_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/A3223304700901379879133207939253/032C_2025_2HOLLIS_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3223304701159634296165141661877/032C_2025_2HOLLIS_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T3223304701178081040238851213493/032C_2025_2HOLLIS_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3223304701196527784312560765109/032C_2025_2HOLLIS_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3223304701214974528386270316725/032C_2025_2HOLLIS_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3223304701233421272459979868341/032C_2025_2HOLLIS_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L3223304701251868016533689419957/032C_2025_2HOLLIS_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3223304701270314760607398971573/032C_2025_2HOLLIS_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C3223304701288761504681108523189/032C_2025_2HOLLIS_010.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "buffalo_lookalike",
@@ -62,7 +198,64 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/X2937029596297538366658459289781/BUFFALO_AW2024_RISEANDFALL_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/X2937029596297538366658459289781/BUFFALO_AW2024_RISEANDFALL_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/X2937029596297538366658459289781/BUFFALO_AW2024_RISEANDFALL_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/X2937029596297538366658459289781/BUFFALO_AW2024_RISEANDFALL_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/V2936944798754853836399988525237/BUFFALO_AW2024_RISEANDFALL_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P2936944798957768021210793593013/BUFFALO_AW2024_RISEANDFALL_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2936944798976214765284503144629/BUFFALO_AW2024_RISEANDFALL_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2936944798994661509358212696245/BUFFALO_AW2024_RISEANDFALL_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2936944799013108253431922247861/BUFFALO_AW2024_RISEANDFALL_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J2936944799031554997505631799477/BUFFALO_AW2024_RISEANDFALL_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2936944799050001741579341351093/BUFFALO_AW2024_RISEANDFALL_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X2936944799068448485653050902709/BUFFALO_AW2024_RISEANDFALL_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S2936944799086895229726760454325/BUFFALO_AW2024_RISEANDFALL_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2936944799105341973800470005941/BUFFALO_AW2024_RISEANDFALL_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T2936944799123788717874179557557/BUFFALO_AW2024_RISEANDFALL_012.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "buffalo_spain",
@@ -78,7 +271,64 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/W2990416513155772086510609057973/BUFFALO_ZINE_SPRING_SUMMER_2028_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/W2990416513155772086510609057973/BUFFALO_ZINE_SPRING_SUMMER_2028_0001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/W2990416513155772086510609057973/BUFFALO_ZINE_SPRING_SUMMER_2028_0001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/W2990416513155772086510609057973/BUFFALO_ZINE_SPRING_SUMMER_2028_0001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z2990413039596969518854620661941/BUFFALO_ZINE_SPRING_SUMMER_2028_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J2990413039873670679960263936181/BUFFALO_ZINE_SPRING_SUMMER_2028_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H2990413039892117424033973487797/BUFFALO_ZINE_SPRING_SUMMER_2028_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2990413039910564168107683039413/BUFFALO_ZINE_SPRING_SUMMER_2028_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2990413039929010912181392591029/BUFFALO_ZINE_SPRING_SUMMER_2028_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2990413039947457656255102142645/BUFFALO_ZINE_SPRING_SUMMER_2028_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z2990413039965904400328811694261/BUFFALO_ZINE_SPRING_SUMMER_2028_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A2990413039984351144402521245877/BUFFALO_ZINE_SPRING_SUMMER_2028_0009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H2990413040002797888476230797493/BUFFALO_ZINE_SPRING_SUMMER_2028_0010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2990413040021244632549940349109/BUFFALO_ZINE_SPRING_SUMMER_2028_0011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2990413040039691376623649900725/BUFFALO_ZINE_SPRING_SUMMER_2028_0012.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "dazed_feb_2002",
@@ -93,7 +343,54 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/Y3048406346985256130883497576629/DAZED_FEBRERO_2002_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/Y3048406346985256130883497576629/DAZED_FEBRERO_2002_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/Y3048406346985256130883497576629/DAZED_FEBRERO_2002_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/Y3048406346985256130883497576629/DAZED_FEBRERO_2002_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/B3048402744594392952440000694453/DAZED_FEBRERO_2002_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y3048402744871094113545643968693/DAZED_FEBRERO_2002_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O3048402744889540857619353520309/DAZED_FEBRERO_2002_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y3048402744907987601693063071925/DAZED_FEBRERO_2002_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3048402744926434345766772623541/DAZED_FEBRERO_2002_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3048402744944881089840482175157/DAZED_FEBRERO_2002_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L3048402744963327833914191726773/DAZED_FEBRERO_2002_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W3048402744981774577987901278389/DAZED_FEBRERO_2002_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3048402745000221322061610830005/DAZED_FEBRERO_2002_010.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "dazed_oct_2002",
@@ -108,7 +405,74 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/A3127604156120016942358239463605/DAZED_OCT_2002_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3127600993167491087823681177781/DAZED_OCT_2002_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3127600993554872713371581761717/DAZED_OCT_2002_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/I3127600993573319457445291313333/DAZED_OCT_2002_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y3127600993591766201519000864949/DAZED_OCT_2002_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3127600993610212945592710416565/DAZED_OCT_2002_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3127600993628659689666419968181/DAZED_OCT_2002_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3127600993647106433740129519797/DAZED_OCT_2002_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3127600993665553177813839071413/DAZED_OCT_2002_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3127600993683999921887548623029/DAZED_OCT_2002_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y3127600993702446665961258174645/DAZED_OCT_2002_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W3127600993720893410034967726261/DAZED_OCT_2002_012.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P3127600993739340154108677277877/DAZED_OCT_2002_013.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3127600993757786898182386829493/DAZED_OCT_2002_014.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "dazed_pharrell",
@@ -123,7 +487,59 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/H3212198585524027608214037416117/DAZED_MAYO_2003_PHARRELL_WILLIAMS_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/H3212198585524027608214037416117/DAZED_MAYO_2003_PHARRELL_WILLIAMS_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/H3212198585524027608214037416117/DAZED_MAYO_2003_PHARRELL_WILLIAMS_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/H3212198585524027608214037416117/DAZED_MAYO_2003_PHARRELL_WILLIAMS_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3212196218843656439425984186549/DAZED_MAYO_2003_PHARRELL_WILLIAMS_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3212196219120357600531627460789/DAZED_MAYO_2003_PHARRELL_WILLIAMS_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P3212196219138804344605337012405/DAZED_MAYO_2003_PHARRELL_WILLIAMS_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B3212196219157251088679046564021/DAZED_MAYO_2003_PHARRELL_WILLIAMS_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3212196219175697832752756115637/DAZED_MAYO_2003_PHARRELL_WILLIAMS_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A3212196219194144576826465667253/DAZED_MAYO_2003_PHARRELL_WILLIAMS_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3212196219212591320900175218869/DAZED_MAYO_2003_PHARRELL_WILLIAMS_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3212196219231038064973884770485/DAZED_MAYO_2003_PHARRELL_WILLIAMS_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z3212196219249484809047594322101/DAZED_MAYO_2003_PHARRELL_WILLIAMS_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W3212196219267931553121303873717/DAZED_MAYO_2003_PHARRELL_WILLIAMS_011.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "dazed_sofia_coppola",
@@ -137,7 +553,89 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/I2934834335450067761217954728117/DAZED_SOFIACOPPOLA.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/I2934834335450067761217954728117/DAZED_SOFIACOPPOLA.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/I2934834335450067761217954728117/DAZED_SOFIACOPPOLA.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/I2934834335450067761217954728117/DAZED_SOFIACOPPOLA.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/D2934838071229337336655219345589/DAZED_SOFIACOPPOLA_0001.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M2934838071506038497760862619829/DAZED_SOFIACOPPOLA_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M2934838071524485241834572171445/DAZED_SOFIACOPPOLA_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2934838071542931985908281723061/DAZED_SOFIACOPPOLA_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W2934838071561378729981991274677/DAZED_SOFIACOPPOLA_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U2934838071579825474055700826293/DAZED_SOFIACOPPOLA_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L2934838071598272218129410377909/DAZED_SOFIACOPPOLA_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2934838071616718962203119929525/DAZED_SOFIACOPPOLA_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H2934838071635165706276829481141/DAZED_SOFIACOPPOLA_0009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/I2934838071653612450350539032757/DAZED_SOFIACOPPOLA_0010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L2934838071672059194424248584373/DAZED_SOFIACOPPOLA_0011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J2934838071690505938497958135989/DAZED_SOFIACOPPOLA_0012.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2934838071708952682571667687605/DAZED_SOFIACOPPOLA_0013.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J2934838071727399426645377239221/DAZED_SOFIACOPPOLA_0014.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X2934838071745846170719086790837/DAZED_SOFIACOPPOLA_0015.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A2934838071764292914792796342453/DAZED_SOFIACOPPOLA_0016.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "dazed_yunglean",
@@ -152,7 +650,49 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/E2937031343665370748795736115381/DAZED_YUNGLEAN.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/E2937031343665370748795736115381/DAZED_YUNGLEAN.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/E2937031343665370748795736115381/DAZED_YUNGLEAN.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/E2937031343665370748795736115381/DAZED_YUNGLEAN.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/G2937004976811728992048133785781/DAZED_YUNGLEAN_001.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2937004976977749688711519750325/DAZED_YUNGLEAN_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S2937004976996196432785229301941/DAZED_YUNGLEAN_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2937004977014643176858938853557/DAZED_YUNGLEAN_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2937004977033089920932648405173/DAZED_YUNGLEAN_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2937004977051536665006357956789/DAZED_YUNGLEAN_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R2937004977069983409080067508405/DAZED_YUNGLEAN_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D2937004977088430153153777060021/DAZED_YUNGLEAN_008.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "dust_badgyal",
@@ -167,7 +707,64 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/K3138746044069112993419738040501/DUST_SPANISH_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/K3138746044069112993419738040501/DUST_SPANISH_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/K3138746044069112993419738040501/DUST_SPANISH_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/K3138746044069112993419738040501/DUST_SPANISH_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3138743299765443891723453679797/DUST_SPANISH_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3138743300115932029123935160501/DUST_SPANISH_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A3138743300134378773197644712117/DUST_SPANISH_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3138743300152825517271354263733/DUST_SPANISH_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3138743300171272261345063815349/DUST_SPANISH_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3138743300189719005418773366965/DUST_SPANISH_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3138743300208165749492482918581/DUST_SPANISH_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/F3138743300226612493566192470197/DUST_SPANISH_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O3138743300245059237639902021813/DUST_SPANISH_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W3138743300263505981713611573429/DUST_SPANISH_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3138743300281952725787321125045/DUST_SPANISH_012.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "fantasticman-fakemink",
@@ -180,9 +777,71 @@
         "El número 42, Spring/Summer 2026, presenta tres portadas diferentes protagonizadas por Virgil van Dijk, Pedro Pascal y Fakemink. En esta última, el rapero británico aparece fotografiado por Alasdair McLellan en un primer plano que ocupa prácticamente toda la cubierta. La imagen, de tonos cálidos y encuadre directo, contrasta con la elegancia tipográfica característica de la revista. El texto de portada anuncia un viaje a Basildon para conocer al artista, descrito como uno de los raperos y productores más prolíficos de su generación.",
         "En el interior, los tres protagonistas de portada aparecen en entrevistas extensas, acompañados por perfiles de otras figuras del arte, el cine y la moda. Destacan una conversación con el artista Arthur Jafa, un encuentro con el director y estilista Aidan Zamiri y una entrevista al actor Tony Leung. También participan el diseñador de calzado parisino Abra y el creador de contenido de moda Lyas, junto a diferentes editoriales dedicados a las colecciones de temporada. Una edición que reúne distintas formas de entender la masculinidad actual, desde la música y el deporte hasta el cine, el arte y la moda."
       ],
-      "image_full": "https://freight.cargo.site/w/1600/i/U3221730976587501683113778825397/FANTASTICMAN_FAKEMINK_2026_002.jpg",
-      "image_thumb": "https://freight.cargo.site/w/600/i/U3221730976587501683113778825397/FANTASTICMAN_FAKEMINK_2026_002.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/U3221730976587501683113778825397/FANTASTICMAN_FAKEMINK_2026_002.jpg"
+      "image_full": "https://freight.cargo.site/w/1600/i/L3221727072961307780993304053941/FANTASTICMAN_FAKEMINK_2026_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/L3221727072961307780993304053941/FANTASTICMAN_FAKEMINK_2026_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/L3221727072961307780993304053941/FANTASTICMAN_FAKEMINK_2026_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3221730976587501683113778825397/FANTASTICMAN_FAKEMINK_2026_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O3221730976974883308661679409333/FANTASTICMAN_FAKEMINK_2026_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X3221730976993330052735388960949/FANTASTICMAN_FAKEMINK_2026_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3221730977011776796809098512565/FANTASTICMAN_FAKEMINK_2026_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3221730977030223540882808064181/FANTASTICMAN_FAKEMINK_2026_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3221730977048670284956517615797/FANTASTICMAN_FAKEMINK_2026_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3221730977067117029030227167413/FANTASTICMAN_FAKEMINK_2026_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3221730977085563773103936719029/FANTASTICMAN_FAKEMINK_2026_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O3221730977104010517177646270645/FANTASTICMAN_FAKEMINK_2026_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3221730977122457261251355822261/FANTASTICMAN_FAKEMINK_2026_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X3221730977140904005325065373877/FANTASTICMAN_FAKEMINK_2026_012.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W3221730977159350749398774925493/FANTASTICMAN_FAKEMINK_2026_013.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "i-d_ascensor",
@@ -197,7 +856,79 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/X2904519449320802574348535023797/i-D-1999-October-Uplift.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/X2904519449320802574348535023797/i-D-1999-October-Uplift.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/X2904519449320802574348535023797/i-D-1999-October-Uplift.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/X2904519449320802574348535023797/i-D-1999-October-Uplift.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2934856796224098654041711921333/i-D_ASCENSORES_0001.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R2934856796519246559221064747189/i-D_ASCENSORES_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2934856796537693303294774298805/i-D_ASCENSORES_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2934856796556140047368483850421/i-D_ASCENSORES_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V2934856796574586791442193402037/i-D_ASCENSORES_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S2934856796593033535515902953653/i-D_ASCENSORES_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2934856796611480279589612505269/i-D_ASCENSORES_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2934856796629927023663322056885/i-D_ASCENSORES_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G2934856796648373767737031608501/i-D_ASCENSORES_0009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P2934856796666820511810741160117/i-D_ASCENSORES_0010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H2934856796685267255884450711733/i-D_ASCENSORES_0011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R2934856796703713999958160263349/i-D_ASCENSORES_0012.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2934856796722160744031869814965/i-D_ASCENSORES_0013.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2934856796740607488105579366581/i-D_ASCENSORES_0014.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "i-d_esdeekid",
@@ -212,7 +943,64 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/Q3127594657153623626361730320565/iD_2026_ESDEEKID_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/Q3127594657153623626361730320565/iD_2026_ESDEEKID_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/Q3127594657153623626361730320565/iD_2026_ESDEEKID_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/Q3127594657153623626361730320565/iD_2026_ESDEEKID_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3127590644525618992691515050165/iD_2026_ESDEEKID_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O3127590644913000618239415634101/iD_2026_ESDEEKID_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3127590644931447362313125185717/iD_2026_ESDEEKID_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C3127590644949894106386834737333/iD_2026_ESDEEKID_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3127590644968340850460544288949/iD_2026_ESDEEKID_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z3127590644986787594534253840565/iD_2026_ESDEEKID_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L3127590645005234338607963392181/iD_2026_ESDEEKID_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3127590645023681082681672943797/iD_2026_ESDEEKID_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B3127590645042127826755382495413/iD_2026_ESDEEKID_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O3127590645060574570829092047029/iD_2026_ESDEEKID_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3127590645079021314902801598645/iD_2026_ESDEEKID_012.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "i-d_family",
@@ -227,7 +1015,44 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/Y2990433933117177165241163008181/ID_FAMILY_1998_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/Y2990433933117177165241163008181/ID_FAMILY_1998_0001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/Y2990433933117177165241163008181/ID_FAMILY_1998_0001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/Y2990433933117177165241163008181/ID_FAMILY_1998_0001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2990431434616372845724653930677/ID_FAMILY_1998_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2990431434800840286461749446837/ID_FAMILY_1998_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X2990431434819287030535458998453/ID_FAMILY_1998_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P2990431434837733774609168550069/ID_FAMILY_1998_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/I2990431434856180518682878101685/ID_FAMILY_1998_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R2990431434874627262756587653301/ID_FAMILY_1998_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y2990431434893074006830297204917/ID_FAMILY_1998_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "i-d_jolene-1",
@@ -241,7 +1066,59 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/Q2935097810166545346227719194805/I-D_JOLENE_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/Q2935097810166545346227719194805/I-D_JOLENE_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/Q2935097810166545346227719194805/I-D_JOLENE_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/Q2935097810166545346227719194805/I-D_JOLENE_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2935097462574546765318638094517/I-D_JOLENE_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L2935097462777460950129443162293/I-D_JOLENE_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2935097462795907694203152713909/I-D_JOLENE_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S2935097462814354438276862265525/I-D_JOLENE_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D2935097462832801182350571817141/I-D_JOLENE_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2935097462851247926424281368757/I-D_JOLENE_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2935097462869694670497990920373/I-D_JOLENE_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2935097462888141414571700471989/I-D_JOLENE_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W2935097462906588158645410023605/I-D_JOLENE_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X2935097462925034902719119575221/I-D_JOLENE_011.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "i-d_prespring",
@@ -255,7 +1132,54 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/G2937031103230508492065440352437/i-D_PRESPRING_010.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/G2937031103230508492065440352437/i-D_PRESPRING_010.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/G2937031103230508492065440352437/i-D_PRESPRING_010.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/G2937031103230508492065440352437/i-D_PRESPRING_010.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2936992513527350007221518158005/i-D_PRESPRING_001.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L2936992513711817447958613674165/i-D_PRESPRING_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z2936992513730264192032323225781/i-D_PRESPRING_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y2936992513748710936106032777397/i-D_PRESPRING_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2936992513767157680179742329013/i-D_PRESPRING_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S2936992513785604424253451880629/i-D_PRESPRING_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W2936992513804051168327161432245/i-D_PRESPRING_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2936992513822497912400870983861/i-D_PRESPRING_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T2936992513840944656474580535477/i-D_PRESPRING_009.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "i-d-earthwise",
@@ -270,7 +1194,54 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/K3154646844913736361952950962357/iD_2018_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/K3154646844913736361952950962357/iD_2018_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/K3154646844913736361952950962357/iD_2018_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/K3154646844913736361952950962357/iD_2018_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3154643693859360434961053468853/iD_2018_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T3154643694191401828287825397941/iD_2018_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3154643694209848572361534949557/iD_2018_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W3154643694228295316435244501173/iD_2018_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y3154643694246742060508954052789/iD_2018_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A3154643694265188804582663604405/iD_2018_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J3154643694283635548656373156021/iD_2018_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z3154643694302082292730082707637/iD_2018_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C3154643694320529036803792259253/iD_2018_010.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "iloveyou_2013",
@@ -285,7 +1256,54 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/U3100433285328947892779640768693/ILOVEYOU_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/U3100433285328947892779640768693/ILOVEYOU_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/U3100433285328947892779640768693/ILOVEYOU_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/U3100433285328947892779640768693/ILOVEYOU_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3100429614076389087178387703989/ILOVEYOU_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3100429614371536992357740529845/ILOVEYOU_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3100429614389983736431450081461/ILOVEYOU_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B3100429614408430480505159633077/ILOVEYOU_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B3100429614426877224578869184693/ILOVEYOU_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3100429614445323968652578736309/ILOVEYOU_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3100429614463770712726288287925/ILOVEYOU_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3100429614482217456799997839541/ILOVEYOU_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3100429614500664200873707391157/ILOVEYOU_010.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "interview_karl",
@@ -302,7 +1320,44 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/X2965634060674236189500217051317/INTERVIEW-OCTUBRE-2001-KARL_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/X2965634060674236189500217051317/INTERVIEW-OCTUBRE-2001-KARL_0001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/X2965634060674236189500217051317/INTERVIEW-OCTUBRE-2001-KARL_0001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/X2965634060674236189500217051317/INTERVIEW-OCTUBRE-2001-KARL_0001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2965617064360755507583225514165/INTERVIEW-OCTUBRE-2001-KARL_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G2965617064526776204246611478709/INTERVIEW-OCTUBRE-2001-KARL_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M2965617064545222948320321030325/INTERVIEW-OCTUBRE-2001-KARL_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2965617064563669692394030581941/INTERVIEW-OCTUBRE-2001-KARL_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W2965617064582116436467740133557/INTERVIEW-OCTUBRE-2001-KARL_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2965617064600563180541449685173/INTERVIEW-OCTUBRE-2001-KARL_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2965617064619009924615159236789/INTERVIEW-OCTUBRE-2001-KARL_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "interview-lana",
@@ -317,7 +1372,69 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/C3159573006413446331865512626357/INTERVIEW_LANA_DEL_REY_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/C3159573006413446331865512626357/INTERVIEW_LANA_DEL_REY_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/C3159573006413446331865512626357/INTERVIEW_LANA_DEL_REY_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/C3159573006413446331865512626357/INTERVIEW_LANA_DEL_REY_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3159565531866534641050036029621/INTERVIEW_LANA_DEL_REY_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3159565532253916266597936613557/INTERVIEW_LANA_DEL_REY_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/I3159565532272363010671646165173/INTERVIEW_LANA_DEL_REY_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/F3159565532290809754745355716789/INTERVIEW_LANA_DEL_REY_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L3159565532309256498819065268405/INTERVIEW_LANA_DEL_REY_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3159565532327703242892774820021/INTERVIEW_LANA_DEL_REY_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/F3159565532346149986966484371637/INTERVIEW_LANA_DEL_REY_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3159565532364596731040193923253/INTERVIEW_LANA_DEL_REY_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/I3159565532383043475113903474869/INTERVIEW_LANA_DEL_REY_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3159565532401490219187613026485/INTERVIEW_LANA_DEL_REY_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L3159565532419936963261322578101/INTERVIEW_LANA_DEL_REY_012.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J3159565532438383707335032129717/INTERVIEW_LANA_DEL_REY_013.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "jalouse_laidback",
@@ -332,7 +1449,59 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/J2965634416677950068020853688501/JALOUSE_MAYO_2001_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/J2965634416677950068020853688501/JALOUSE_MAYO_2001_0001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/J2965634416677950068020853688501/JALOUSE_MAYO_2001_0001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/J2965634416677950068020853688501/JALOUSE_MAYO_2001_0001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2965618666755626214437136189621/JALOUSE_MAYO_2001_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U2965618666940093655174231705781/JALOUSE_MAYO_2001_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2965618666958540399247941257397/JALOUSE_MAYO_2001_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X2965618666976987143321650809013/JALOUSE_MAYO_2001_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J2965618666995433887395360360629/JALOUSE_MAYO_2001_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2965618667013880631469069912245/JALOUSE_MAYO_2001_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2965618667032327375542779463861/JALOUSE_MAYO_2001_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V2965618667050774119616489015477/JALOUSE_MAYO_2001_0009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G2965618667069220863690198567093/JALOUSE_MAYO_2001_0010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z2965618667087667607763908118709/JALOUSE_MAYO_2001_0011.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "jalouse_nov_1999",
@@ -347,7 +1516,59 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/G3071824813360206568390375327925/JALOUSE_NOV_1999_AVANTGARDE_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/G3071824813360206568390375327925/JALOUSE_NOV_1999_AVANTGARDE_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/G3071824813360206568390375327925/JALOUSE_NOV_1999_AVANTGARDE_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/G3071824813360206568390375327925/JALOUSE_NOV_1999_AVANTGARDE_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/X3071819232076426138681019287733/JALOUSE_NOV_1999_AVANTGARDE_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3071819232426914276081500768437/JALOUSE_NOV_1999_AVANTGARDE_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3071819232445361020155210320053/JALOUSE_NOV_1999_AVANTGARDE_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/F3071819232463807764228919871669/JALOUSE_NOV_1999_AVANTGARDE_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3071819232482254508302629423285/JALOUSE_NOV_1999_AVANTGARDE_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z3071819232500701252376338974901/JALOUSE_NOV_1999_AVANTGARDE_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3071819232519147996450048526517/JALOUSE_NOV_1999_AVANTGARDE_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3071819232537594740523758078133/JALOUSE_NOV_1999_AVANTGARDE_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3071819232556041484597467629749/JALOUSE_NOV_1999_AVANTGARDE_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3071819232574488228671177181365/JALOUSE_NOV_1999_AVANTGARDE_011.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "kingkong_2022",
@@ -362,7 +1583,69 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/X3100424554282063621238055848117/KINGKONG_AW22_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/X3100424554282063621238055848117/KINGKONG_AW22_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/X3100424554282063621238055848117/KINGKONG_AW22_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/X3100424554282063621238055848117/KINGKONG_AW22_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3100421688026969448247925754037/KINGKONG_AW22_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H3100421688377457585648407234741/KINGKONG_AW22_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/I3100421688395904329722116786357/KINGKONG_AW22_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3100421688414351073795826337973/KINGKONG_AW22_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T3100421688432797817869535889589/KINGKONG_AW22_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3100421688451244561943245441205/KINGKONG_AW22_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O3100421688469691306016954992821/KINGKONG_AW22_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3100421688488138050090664544437/KINGKONG_AW22_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L3100421688506584794164374096053/KINGKONG_AW22_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3100421688525031538238083647669/KINGKONG_AW22_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3100421688543478282311793199285/KINGKONG_AW22_012.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3100421688561925026385502750901/KINGKONG_AW22_013.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "love_justin",
@@ -376,7 +1659,44 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/O2937028908436898602102989080757/LOVE_JB_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/O2937028908436898602102989080757/LOVE_JB_0001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/O2937028908436898602102989080757/LOVE_JB_0001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/O2937028908436898602102989080757/LOVE_JB_0001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2936893699244627812833961527477/LOVE_JB_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R2936893699373755021349928388789/LOVE_JB_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V2936893699392201765423637940405/LOVE_JB_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2936893699410648509497347492021/LOVE_JB_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L2936893699429095253571057043637/LOVE_JB_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R2936893699447541997644766595253/LOVE_JB_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2936893699465988741718476146869/LOVE_JB_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "neo2_2004",
@@ -389,9 +1709,56 @@
         "El número 38, de noviembre de 2004, presenta una portada de estética minimalista, protagonizada por un retrato frontal de una modelo de larga melena rubia. La fotografía, de iluminación suave y fondo oscuro, contrasta con el logotipo amarillo de NEO2 y una composición tipográfica muy limpia. Entre los titulares destacan nombres como Hedi Slimane, Terry Richardson, R.E.M. y Marilyn Manson, además de un especial dedicado al universo de Alejandro Jodorowsky y otro sobre viviendas alternativas.",
         "El interior reúne distintas escenas de la cultura de principios de los 2000. Entre sus contenidos encontramos una entrevista a James Murphy, de LCD Soundsystem; un encuentro con Terry Richardson alrededor de su libro Kibosh; y conversaciones con R.E.M., con motivo de la publicación de Around the Sun, y Devendra Banhart. También incluye un acercamiento al diseñador holandés Frank Tjepkema y un editorial de moda de carácter político, publicado semanas antes de las elecciones presidenciales estadounidenses de 2004. Una edición que refleja bien la identidad de NEO2: conectar música, moda, diseño y pensamiento visual sin limitarse a una única escena cultural."
       ],
-      "image_full": "https://freight.cargo.site/w/1600/i/I3221740547846685023978020751541/NEO2_NOV_2004_002.jpg",
-      "image_thumb": "https://freight.cargo.site/w/600/i/I3221740547846685023978020751541/NEO2_NOV_2004_002.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/I3221740547846685023978020751541/NEO2_NOV_2004_002.jpg"
+      "image_full": "https://freight.cargo.site/w/1600/i/R3221736100244455132236578375861/NEO2_NOV_2004_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/R3221736100244455132236578375861/NEO2_NOV_2004_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/R3221736100244455132236578375861/NEO2_NOV_2004_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/I3221740547846685023978020751541/NEO2_NOV_2004_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J3221740548160279673231083129013/NEO2_NOV_2004_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3221740548178726417304792680629/NEO2_NOV_2004_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3221740548197173161378502232245/NEO2_NOV_2004_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C3221740548215619905452211783861/NEO2_NOV_2004_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/F3221740548234066649525921335477/NEO2_NOV_2004_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3221740548252513393599630887093/NEO2_NOV_2004_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C3221740548270960137673340438709/NEO2_NOV_2004_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H3221740548289406881747049990325/NEO2_NOV_2004_010.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "purple_lindsay",
@@ -408,7 +1775,59 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/D2965633419188711026250559604917/PURPLE_SS2010_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/D2965633419188711026250559604917/PURPLE_SS2010_0001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/D2965633419188711026250559604917/PURPLE_SS2010_0001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/D2965633419188711026250559604917/PURPLE_SS2010_0001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/J2965620266494165774676871432373/PURPLE_SS2010_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2965620266715526703561386051765/PURPLE_SS2010_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2965620266733973447635095603381/PURPLE_SS2010_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W2965620266752420191708805154997/PURPLE_SS2010_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T2965620266770866935782514706613/PURPLE_SS2010_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H2965620266789313679856224258229/PURPLE_SS2010_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2965620266807760423929933809845/PURPLE_SS2010_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2965620266826207168003643361461/PURPLE_SS2010_0009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A2965620266844653912077352913077/PURPLE_SS2010_0010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z2965620266863100656151062464693/PURPLE_SS2010_0011.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "rafzine",
@@ -423,7 +1842,49 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/I2937029175545752789417296480437/RAFZINE_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/I2937029175545752789417296480437/RAFZINE_0001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/I2937029175545752789417296480437/RAFZINE_0001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/I2937029175545752789417296480437/RAFZINE_0001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/T2936906791507639478935158606005/RAFZINE_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2936906791636766687451125467317/RAFZINE_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/I2936906791655213431524835018933/RAFZINE_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2936906791673660175598544570549/RAFZINE_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2936906791692106919672254122165/RAFZINE_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U2936906791710553663745963673781/RAFZINE_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2936906791729000407819673225397/RAFZINE_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2936906791747447151893382777013/RAFZINE_0009.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "system_beauty",
@@ -438,7 +1899,54 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/A3003822131894462007399047055541/SYSTEM_MICHELE_LAMY.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/A3003822131894462007399047055541/SYSTEM_MICHELE_LAMY.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/A3003822131894462007399047055541/SYSTEM_MICHELE_LAMY.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/A3003822131894462007399047055541/SYSTEM_MICHELE_LAMY.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z3003813984115178602479774681269/SYSTEM_MICHELE_LAMY_2.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3003813984465666739880256161973/SYSTEM_MICHELE_LAMY_3.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J3003813984484113483953965713589/SYSTEM_MICHELE_LAMY_4.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3003813984502560228027675265205/SYSTEM_MICHELE_LAMY_5.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3003813984521006972101384816821/SYSTEM_MICHELE_LAMY_6.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3003813984539453716175094368437/SYSTEM_MICHELE_LAMY_7.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3003813984557900460248803920053/SYSTEM_MICHELE_LAMY_8.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3003813984576347204322513471669/SYSTEM_MICHELE_LAMY_9.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J3003813984594793948396223023285/SYSTEM_MICHELE_LAMY_10.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "system_courreges",
@@ -453,7 +1961,44 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/G2937029414394195055808570804405/SYSTEM_COURREGES_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/G2937029414394195055808570804405/SYSTEM_COURREGES_0001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/G2937029414394195055808570804405/SYSTEM_COURREGES_0001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/G2937029414394195055808570804405/SYSTEM_COURREGES_0001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2936920905830953292987772520629/2023-SYSTEM-COURREGES---0000.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2936920905978527245577448933557/2023-SYSTEM-COURREGES---0001.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2936920905996973989651158485173/2023-SYSTEM-COURREGES---0002.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U2936920906015420733724868036789/2023-SYSTEM-COURREGES---0003.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A2936920906033867477798577588405/2023-SYSTEM-COURREGES---0004.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2936920906052314221872287140021/2023-SYSTEM-COURREGES---0005.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U2936920906070760965945996691637/2023-SYSTEM-COURREGES---0006.jpg",
+          "width": 2160,
+          "height": 2880
+        }
+      ]
     },
     {
       "slug": "tf_courtney",
@@ -468,7 +2013,44 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/F2904519833234440236391723255989/The-Face-Magazine-Courtney-Love.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/F2904519833234440236391723255989/The-Face-Magazine-Courtney-Love.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/F2904519833234440236391723255989/The-Face-Magazine-Courtney-Love.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/F2904519833234440236391723255989/The-Face-Magazine-Courtney-Love.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/I2882268156368036843669816690869/THEFACE_COURTNEYLOVE_0000.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P2882267129677601933217302399157/THEFACE_COURTNEYLOVE_0001.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P2882268643564994574412784421045/THEFACE_COURTNEYLOVE_0002.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X2882268950943091074635042998453/THEFACE_COURTNEYLOVE_0003.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J2882269289256377386468219635893/THEFACE_COURTNEYLOVE_0004.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/F2882269461954795404537041864885/THEFACE_COURTNEYLOVE_0005.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2882269570015822188327595231413/THEFACE_COURTNEYLOVE_0006.jpg",
+          "width": 2160,
+          "height": 2880
+        }
+      ]
     },
     {
       "slug": "tf_drugs",
@@ -483,7 +2065,69 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/I2974682579805598807578907068597/1998-THE-FACE-JUNE-DRUGS_.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/F2974683433115086169235345721525/1998-THE-FACE-JUNE-DRUGS_001.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H2974683433336447098119860340917/1998-THE-FACE-JUNE-DRUGS_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W2974683433354893842193569892533/1998-THE-FACE-JUNE-DRUGS_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2974683433373340586267279444149/1998-THE-FACE-JUNE-DRUGS_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2974683433391787330340988995765/1998-THE-FACE-JUNE-DRUGS_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X2974683433410234074414698547381/1998-THE-FACE-JUNE-DRUGS_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R2974683433428680818488408098997/1998-THE-FACE-JUNE-DRUGS_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D2974683433447127562562117650613/1998-THE-FACE-JUNE-DRUGS_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M2974683433465574306635827202229/1998-THE-FACE-JUNE-DRUGS_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D2974683433484021050709536753845/1998-THE-FACE-JUNE-DRUGS_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2974683433502467794783246305461/1998-THE-FACE-JUNE-DRUGS_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M2974683433520914538856955857077/1998-THE-FACE-JUNE-DRUGS_012.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "tf_freaklechic_1988",
@@ -498,7 +2142,49 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/I3212205522440583270764632164533/THEFACE_1988_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/I3212205522440583270764632164533/THEFACE_1988_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/I3212205522440583270764632164533/THEFACE_1988_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/I3212205522440583270764632164533/THEFACE_1988_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/X3212203617924938124695685122229/THEFACE_1988_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C3212203618220086029875037948085/THEFACE_1988_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3212203618238532773948747499701/THEFACE_1988_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3212203618256979518022457051317/THEFACE_1988_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H3212203618275426262096166602933/THEFACE_1988_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3212203618293873006169876154549/THEFACE_1988_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L3212203618312319750243585706165/THEFACE_1988_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3212203618330766494317295257781/THEFACE_1988_009.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "tf_katemoss",
@@ -513,7 +2199,54 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/D3138753961928178263623159072949/THEFACE_KATEMOSS_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/D3138753961928178263623159072949/THEFACE_KATEMOSS_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/D3138753961928178263623159072949/THEFACE_KATEMOSS_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/D3138753961928178263623159072949/THEFACE_KATEMOSS_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3138751376912144238408852916405/THEFACE_KATEMOSS_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3138751377170398655440786639029/THEFACE_KATEMOSS_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P3138751377188845399514496190645/THEFACE_KATEMOSS_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3138751377207292143588205742261/THEFACE_KATEMOSS_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3138751377225738887661915293877/THEFACE_KATEMOSS_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3138751377244185631735624845493/THEFACE_KATEMOSS_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3138751377262632375809334397109/THEFACE_KATEMOSS_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3138751377281079119883043948725/THEFACE_KATEMOSS_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A3138751377299525863956753500341/THEFACE_KATEMOSS_010.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "tf_kylie",
@@ -528,7 +2261,49 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/C2935078677720100928744650524853/THEFACE_KYLIE_0001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/C2935078677720100928744650524853/THEFACE_KYLIE_0001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/C2935078677720100928744650524853/THEFACE_KYLIE_0001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/C2935078677720100928744650524853/THEFACE_KYLIE_0001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/M2935080729293189830426143049909/THEFACE_KYLIE_0002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2935080729440763783015819462837/THEFACE_KYLIE_0003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W2935080729459210527089529014453/THEFACE_KYLIE_0004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2935080729477657271163238566069/THEFACE_KYLIE_0005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L2935080729496104015236948117685/THEFACE_KYLIE_0006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J2935080729514550759310657669301/THEFACE_KYLIE_0007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B2935080729532997503384367220917/THEFACE_KYLIE_0008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2935080729551444247458076772533/THEFACE_KYLIE_0009.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "tf_orbit_1987",
@@ -543,7 +2318,54 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/K3059140995185894748217940461749/THE_FACE_1987_ORBIT_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/K3059140995185894748217940461749/THE_FACE_1987_ORBIT_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/K3059140995185894748217940461749/THE_FACE_1987_ORBIT_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/K3059140995185894748217940461749/THE_FACE_1987_ORBIT_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/J3059121693416786478154897508533/THE_FACE_1987_ORBIT_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3059121693748827871481669437621/THE_FACE_1987_ORBIT_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3059121693767274615555378989237/THE_FACE_1987_ORBIT_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J3059121693785721359629088540853/THE_FACE_1987_ORBIT_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T3059121693804168103702798092469/THE_FACE_1987_ORBIT_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B3059121693822614847776507644085/THE_FACE_1987_ORBIT_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3059121693841061591850217195701/THE_FACE_1987_ORBIT_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P3059121693859508335923926747317/THE_FACE_1987_ORBIT_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H3059121693877955079997636298933/THE_FACE_1987_ORBIT_010.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "tf_space-girls",
@@ -560,7 +2382,74 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/E2904517333460810575789255116981/The-Face-1997-MARCH.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/E2904517333460810575789255116981/The-Face-1997-MARCH.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/E2904517333460810575789255116981/The-Face-1997-MARCH.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/E2904517333460810575789255116981/The-Face-1997-MARCH.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/X2934821012528968197452524243125/SPICE_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y2934821012750329126337038862517/SPICE_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N2934821012768775870410748414133/SPICE_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P2934821012787222614484457965749/SPICE_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/E2934821012805669358558167517365/SPICE_012.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y2934821012824116102631877068981/SPICE_013.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/I2934821012842562846705586620597/SPICE_014.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L2934821012861009590779296172213/SPICE_015.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P2934821012879456334853005723829/SPICE_016.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S2934821012897903078926715275445/SPICE_017.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D2934821012916349823000424827061/SPICE_018.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R2934821012934796567074134378677/SPICE_019.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K2934821012953243311147843930293/spice5.jpg",
+          "width": 2656,
+          "height": 3501
+        }
+      ]
     },
     {
       "slug": "vogue-nipon-2009",
@@ -573,9 +2462,66 @@
         "El número de junio de 2009 presenta a Natasha Poly en portada, fotografiada por el dúo Inez & Vinoodh. La modelo aparece con una gabardina beige en una imagen de estética natural y depurada, acompañada por el titular “Natural Wonder” y una referencia a la belleza orgánica de Tokio. Una portada que anticipa el tema principal de la edición: la incorporación de una forma de vida más sostenible al universo de la moda y el lujo.",
         "El interior desarrolla esta idea a través de editoriales y reportajes dedicados a la moda, la cosmética, la alimentación y el bienestar, explorando cómo incorporar hábitos más responsables sin renunciar al estilo. También incluye un especial sobre cine en el que once escritoras japonesas reflexionan sobre películas como Gran Torino, Milk o Slumdog Millionaire."
       ],
-      "image_full": "https://freight.cargo.site/w/1600/i/M3226489140932601233525598144693/2009_JUNIO_VOGUE_JAPON_002.jpg",
-      "image_thumb": "https://freight.cargo.site/w/600/i/M3226489140932601233525598144693/2009_JUNIO_VOGUE_JAPON_002.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/M3226489140932601233525598144693/2009_JUNIO_VOGUE_JAPON_002.jpg"
+      "image_full": "https://freight.cargo.site/w/1600/i/U3226487376040361981364247283893/2009_JUNIO_VOGUE_JAPON_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/U3226487376040361981364247283893/2009_JUNIO_VOGUE_JAPON_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/U3226487376040361981364247283893/2009_JUNIO_VOGUE_JAPON_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3226489140932601233525598144693/2009_JUNIO_VOGUE_JAPON_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3226489141301536114999789177013/2009_JUNIO_VOGUE_JAPON_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W3226489141319982859073498728629/2009_JUNIO_VOGUE_JAPON_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3226489141338429603147208280245/2009_JUNIO_VOGUE_JAPON_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3226489141356876347220917831861/2009_JUNIO_VOGUE_JAPON_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H3226489141375323091294627383477/2009_JUNIO_VOGUE_JAPON_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3226489141393769835368336935093/2009_JUNIO_VOGUE_JAPON_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z3226489141412216579442046486709/2009_JUNIO_VOGUE_JAPON_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3226489141430663323515756038325/2009_JUNIO_VOGUE_JAPON_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3226489141449110067589465589941/2009_JUNIO_VOGUE_JAPON_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3226489141467556811663175141557/2009_JUNIO_VOGUE_JAPON_012.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "w_mia_goth",
@@ -590,7 +2536,104 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/V3048423866577525951719339804853/W_PERFORMANCES_2026_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/V3048423866577525951719339804853/W_PERFORMANCES_2026_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/V3048423866577525951719339804853/W_PERFORMANCES_2026_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/V3048423866577525951719339804853/W_PERFORMANCES_2026_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/E3048419213515460567000911530165/W_PERFORMANCES_2026_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3048419213699928007738007046325/W_PERFORMANCES_2026_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3048419213718374751811716597941/W_PERFORMANCES_2026_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y3048419213736821495885426149557/W_PERFORMANCES_2026_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X3048419677266606580059039156405/W_MIAGOTH_002.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/H3048419677561754485238391982261/W_MIAGOTH_003.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3048419677580201229312101533877/W_MIAGOTH_004.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3048419677598647973385811085493/W_MIAGOTH_005.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B3048419677617094717459520637109/W_MIAGOTH_006.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3048419677635541461533230188725/W_MIAGOTH_007.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z3048419677653988205606939740341/W_MIAGOTH_008.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3048419677672434949680649291957/W_MIAGOTH_009.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T3048419677690881693754358843573/W_MIAGOTH_0010.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/J3048419677709328437828068395189/W_MIAGOTH_0011.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O3048419677727775181901777946805/W_MIAGOTH_0012.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/U3048419677746221925975487498421/W_MIAGOTH_0013.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3048419677764668670049197050037/W_MIAGOTH_0014.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A3048419677783115414122906601653/W_MIAGOTH_0015.jpg",
+          "width": 2160,
+          "height": 2880
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/I3048419677801562158196616153269/W_MIAGOTH_0016.jpg",
+          "width": 2160,
+          "height": 2880
+        }
+      ]
     },
     {
       "slug": "wad_2000",
@@ -604,7 +2647,49 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/Y2935061291590024481197414238389/WAD_2000_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/Y2935061291590024481197414238389/WAD_2000_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/Y2935061291590024481197414238389/WAD_2000_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/Y2935061291590024481197414238389/WAD_2000_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/X2935063194427015916558792083637/WAD_2000_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T2935063194574589869148468496565/WAD_2000_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V2935063194593036613222178048181/WAD_2000_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Z2935063194611483357295887599797/WAD_2000_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/C2935063194629930101369597151413/WAD_2000_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/O2935063194648376845443306703029/WAD_2000_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/T2935063194666823589517016254645/WAD_2000_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q2935063194685270333590725806261/WAD_2000_009.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     },
     {
       "slug": "wad_2010",
@@ -618,7 +2703,64 @@
       ],
       "image_full": "https://freight.cargo.site/w/1600/i/H3017730205575435567152610232501/WAD_2010_001.jpg",
       "image_thumb": "https://freight.cargo.site/w/600/i/H3017730205575435567152610232501/WAD_2010_001.jpg",
-      "image_source": "https://freight.cargo.site/w/1080/i/H3017730205575435567152610232501/WAD_2010_001.jpg"
+      "image_source": "https://freight.cargo.site/w/1080/i/H3017730205575435567152610232501/WAD_2010_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/S3017727872228330939557716773045/WAD_2010_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3017727872652606053253036460213/WAD_2010_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/M3017727872671052797326746011829/WAD_2010_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/D3017727872689499541400455563445/WAD_2010_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3017727872707946285474165115061/WAD_2010_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/Q3017727872726393029547874666677/WAD_2010_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/F3017727872744839773621584218293/WAD_2010_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/X3017727872763286517695293769909/WAD_2010_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/L3017727872781733261769003321525/WAD_2010_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/N3017727872800180005842712873141/WAD_2010_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3017727872818626749916422424757/WAD_2010_012.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
     }
   ]
 }

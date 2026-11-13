@@ -13,6 +13,10 @@ Design notes:
   no longer in covers.json are dropped. This lets the color histogram be
   added to an archive that already has cached CNN vectors without re-running
   TensorFlow over the whole set.
+- Each entry remembers the image it was computed from ("image"). If a
+  cover's image changes (e.g. the scraper first picked an inside page and
+  later found the real cover), both vectors are recomputed. Entries written
+  before this field existed have no "image" and are recomputed once.
 - Uses image_thumb (the 600px CDN size index.html already loads) rather than
   image_full, since both the CNN (224x224) and the histogram (64x64) resize
   down anyway.
@@ -121,6 +125,12 @@ def main():
         for slug, entry in raw_existing.items()
         if slug in covers_by_slug
     }
+    # Vectors computed from a different (or unknown) image are stale.
+    stale = [s for s, e in existing.items() if e.get("image") != covers_by_slug[s]]
+    for slug in stale:
+        existing[slug] = {}
+    if stale:
+        print(f"{len(stale)} cover image(s) changed or unrecorded — recomputing those.")
 
     need_cnn = {s: u for s, u in covers_by_slug.items() if "cnn" not in existing.get(s, {})}
     need_color = {s: u for s, u in covers_by_slug.items() if "color" not in existing.get(s, {})}
@@ -134,11 +144,15 @@ def main():
     embeddings = {}
     for slug in covers_by_slug:
         entry = dict(existing.get(slug, {}))
+        entry["image"] = covers_by_slug[slug]
         if slug in new_cnn:
             entry["cnn"] = new_cnn[slug]
         if slug in new_color:
             entry["color"] = new_color[slug]
-        embeddings[slug] = entry
+        # index.html needs a CNN vector to compare against; skip covers whose
+        # image failed this run (they're retried next run).
+        if "cnn" in entry:
+            embeddings[slug] = entry
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
