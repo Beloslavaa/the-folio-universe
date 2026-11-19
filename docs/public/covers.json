@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T14:56:07.289Z",
+  "generated_at": "2026-11-19T15:02:12.385Z",
   "source": "https://thefolioarchivo.com",
-  "count": 41,
+  "count": 42,
   "covers": [
     {
       "slug": "032c_amelia",
@@ -130,7 +130,7 @@
       "sub": "Ad Astra Per Aspera",
       "meta": "",
       "body": [
-        "32c es una revista independiente de moda y cultura contemporánea fundada en Berlín en el año 2000 por Joerg Koch. Desde sus inicios ha explorado los cruces entre moda, arte, música, política y tecnología, con una perspectiva crítica y experimental. Su identidad visual, a menudo provocadora, combina fotografía, diseño gráfico y textos que buscan ir más allá de las tendencias del momento.",
+        "032c es una revista independiente de moda y cultura contemporánea fundada en Berlín en el año 2000 por Joerg Koch. Desde sus inicios ha explorado los cruces entre moda, arte, música, política y tecnología, con una perspectiva crítica y experimental. Su identidad visual, a menudo provocadora, combina fotografía, diseño gráfico y textos que buscan ir más allá de las tendencias del momento.",
         "El número 47, Summer 2025, presenta en una de sus portadas a 2HOLLIS, uno de los nombres emergentes de la música electrónica y el rap estadounidense. Fotografiado por Brandon Bowen y con estilismo de David Friend, el artista protagoniza un retrato que acompaña una conversación con la periodista Cassidy George. En ella habla sobre su trayectoria, su relación con la música y algunos episodios personales, entre ellos el incendio de su casa durante la infancia, del que únicamente conservó una carta del tarot: The Star.",
         "El eje conceptual de esta edición es el tecno-feudalismo, una reflexión sobre el poder de las grandes plataformas tecnológicas, la economía digital y el futuro de la democracia. El dossier central está diseñado por David Carson y reúne textos de pensadores como Cédric Durand y Jens Hillebrand Pohl. El resto del número amplía esta mirada con una producción de Gabbriette fotografiada por Steven Klein, trabajos sobre artistas como Wolfgang Tillmans, Boris Mikhailov, Hito Steyerl y Cyprien Gaillard, y una conversación con Lorenzo Bertelli, hijo de Miuccia Prada. También aparecen nombres como Thaiboy Digital, Hideo Kojima, Nicolas Winding Refn, IC3PEAK y Sematary. Una edición que conecta música, arte, moda y tecnología para plantear algunas de las tensiones culturales y políticas del presente."
       ],
@@ -325,6 +325,78 @@
         },
         {
           "src": "https://freight.cargo.site/w/800/i/Q2990413040039691376623649900725/BUFFALO_ZINE_SPRING_SUMMER_2028_0012.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "slug": "buffalo-issue-1",
+      "url": "https://thefolioarchivo.com/buffalo-issue-1",
+      "title": "Buffalo Zine (2011)",
+      "sub": "Issue 1",
+      "meta": "",
+      "body": [
+        "Buffalo Zine es una revista independiente de moda y cultura fundada en 2011 por los creativos españoles David Uzquiza y Adrián González-Cohen, con raíces entre Madrid y Londres. Desde su primer número, la publicación apostó por una forma poco convencional de entender las revistas: mezclar fotografía, moda, arte y cultura popular sin seguir una identidad visual fija. De hecho, cada entrega se reinventa por completo, tanto en su diseño como en su contenido, convirtiéndose en un objeto editorial por sí mismo.",
+        "Su primer número, Spring/Summer 2011, presenta una portada protagonizada por una figura de estética andrógina, con una camiseta de Betty Ford Clinic y el logotipo de Buffalo intervenido con una tipografía gestual, casi pintada a mano. La imagen introduce uno de los temas que atraviesan la publicación: la exploración de la identidad, el género y las distintas formas de expresión personal, siempre desde una perspectiva libre y despreocupada de las convenciones.",
+        "Con formato de periódico y más de 170 páginas, el interior reúne una selección ecléctica de fotografía, moda, música y cultura. Entre sus protagonistas aparecen Patti Smith, Marianne Faithfull, Bruce Weber, Morrissey y Eugene Hütz, junto a trabajos relacionados con los cineastas Albert y David Maysles, la actriz Joan Crawford y el artista Mati Klarwein. También aborda cuestiones como el transformismo y la fluidez de género, combinando figuras históricas con nuevos talentos y referencias de la cultura underground. Una primera edición que establece el espíritu de Buffalo, libertad creativa, humor, experimentación visual y una voluntad constante de escapar de las fórmulas editoriales habituales."
+      ],
+      "image_full": "https://freight.cargo.site/w/1600/i/L3236553574132347371883040426165/BUFFALO_MAGAZINE_ISSUE_1_2011_001.jpg",
+      "image_thumb": "https://freight.cargo.site/w/600/i/L3236553574132347371883040426165/BUFFALO_MAGAZINE_ISSUE_1_2011_001.jpg",
+      "image_source": "https://freight.cargo.site/w/1080/i/L3236553574132347371883040426165/BUFFALO_MAGAZINE_ISSUE_1_2011_001.jpg",
+      "pages": [
+        {
+          "src": "https://freight.cargo.site/w/800/i/Y3236556663058089258621168076981/BUFFALO_MAGAZINE_ISSUE_1_2011_002.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3236556663408577396021649557685/BUFFALO_MAGAZINE_ISSUE_1_2011_003.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/V3236556663427024140095359109301/BUFFALO_MAGAZINE_ISSUE_1_2011_004.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/R3236556663445470884169068660917/BUFFALO_MAGAZINE_ISSUE_1_2011_005.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3236556663463917628242778212533/BUFFALO_MAGAZINE_ISSUE_1_2011_006.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/G3236556663482364372316487764149/BUFFALO_MAGAZINE_ISSUE_1_2011_007.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/K3236556663500811116390197315765/BUFFALO_MAGAZINE_ISSUE_1_2011_008.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/A3236556663519257860463906867381/BUFFALO_MAGAZINE_ISSUE_1_2011_009.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/W3236556663537704604537616418997/BUFFALO_MAGAZINE_ISSUE_1_2011_010.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/B3236556663556151348611325970613/BUFFALO_MAGAZINE_ISSUE_1_2011_011.jpg",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "src": "https://freight.cargo.site/w/800/i/P3236556663574598092685035522229/BUFFALO_MAGAZINE_ISSUE_1_2011_012.jpg",
           "width": 1080,
           "height": 1440
         }
