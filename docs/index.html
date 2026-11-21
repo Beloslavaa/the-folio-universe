@@ -18,9 +18,13 @@
   .br { position:absolute; bottom:22px; right:24px; font-size:13px; color:rgba(7, 52, 239, 0.98); }
   #panel { position:absolute; top:0; right:0; bottom:0; width:min(400px, 40vw); padding:22px 24px 28px; box-sizing:border-box; display:flex; flex-direction:column; gap:10px; overflow:auto; -webkit-overflow-scrolling:touch; background:#fff; border-left:1px solid rgba(7,52,239,0.25); pointer-events:none; z-index:5; opacity:0; transform:translateX(28px); transition:opacity .45s ease, transform .45s ease; }
   #panel.open { pointer-events:auto; opacity:1; transform:translateX(0); }
-  .panel-head { display:flex; justify-content:space-between; align-items:baseline; gap:16px; }
+  /* Pinned to the top of the panel so (Cerrar) stays reachable while scrolling
+     through the magazine's pages. Negative margins stretch it over the panel's
+     padding so text scrolling underneath is fully covered. */
+  .panel-head { position:sticky; top:-22px; z-index:1; margin:-22px -24px 0; padding:22px 24px 10px; background:#fff; display:flex; justify-content:space-between; align-items:baseline; gap:16px; }
   #i-title { font-style:normal; font-weight:500; font-size:19px; line-height:1.2; }
-  #close { font-size:13px; white-space:nowrap; }
+  /* Padding enlarges the tap area (~44px) without moving the text. */
+  #close { font-size:13px; white-space:nowrap; padding:14px; margin:-14px; }
   #i-sub { font-style:normal; font-size:15px; }
   #i-meta { font-style:normal; color:rgba(7, 52, 239, 0.98); font-size:13px; }
   #i-body { display:flex; flex-direction:column; gap:11px; margin-top:6px; font-size:13.5px; line-height:1.55; color:rgba(7, 52, 239, 0.98); text-wrap:pretty; }
@@ -39,6 +43,7 @@
     .bl { bottom:14px; left:14px; max-width:60vw; font-size:11px; line-height:1.35; }
     .br { bottom:14px; right:14px; font-size:10px; }
     #panel { width:100%; padding:18px 18px calc(18px + env(safe-area-inset-bottom, 0px)); transform:translateY(28px); }
+    .panel-head { top:-18px; margin:-18px -18px 0; padding:18px 18px 10px; }
     #i-title { font-size:17px; }
     #i-sub { font-size:14px; }
     #i-body { font-size:13px; }
