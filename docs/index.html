@@ -44,6 +44,10 @@
     .br { bottom:14px; right:14px; font-size:10px; }
     #panel { width:100%; padding:18px 18px calc(18px + env(safe-area-inset-bottom, 0px)); transform:translateY(28px); }
     .panel-head { top:-18px; margin:-18px -18px 0; padding:18px 18px 10px; }
+    /* Inside the Cargo site, the page wrapping this iframe lays a full-width
+       "(CERRAR)" strip (~45px) over the top of the screen, which swallows taps
+       on our own (Cerrar). Push the pinned title row below it. */
+    .embedded .panel-head { padding-top:64px; }
     #i-title { font-size:17px; }
     #i-sub { font-size:14px; }
     #i-body { font-size:13px; }
@@ -84,6 +88,9 @@
 const decode = s => { const d = document.createElement('textarea'); d.innerHTML = s || ''; return d.value; };
 
 const isTouch = matchMedia('(pointer:coarse)').matches;
+// Embedded in the Cargo site (in an iframe)? See .embedded in the CSS.
+try { if (window.self !== window.top) document.documentElement.classList.add('embedded'); }
+catch (_) { document.documentElement.classList.add('embedded'); }
 document.getElementById('hint').textContent = isTouch
   ? 'Gira, acerca y toca una portada'
   : 'Arrastra para orbitar — desplaza para hacer zoom — toca una portada';
